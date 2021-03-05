@@ -154,8 +154,8 @@ function Navbars() {
                         href="#pablo"
                         onClick={(e) => e.preventDefault()}
                       >
-                        <i className="fab fa-facebook-square"></i>
-                        <p>Facebook</p>
+                        <i className="fab fa-youtube-square"></i>
+                        <p>Youtube</p>
                       </NavLink>
                     </NavItem>
                     <NavItem>
@@ -172,8 +172,16 @@ function Navbars() {
                         href="#pablo"
                         onClick={(e) => e.preventDefault()}
                       >
-                        <i className="fab fa-instagram"></i>
-                        <p>Instagram</p>
+                        <i className="fab fa-discord"></i>
+                        <p>Discord</p>
+                      </NavLink>
+                    </NavItem>
+                    <NavItem>
+                      <NavLink
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                      >
+                        <p>RULES</p>
                       </NavLink>
                     </NavItem>
                   </Nav>
