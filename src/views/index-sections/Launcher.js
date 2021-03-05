@@ -29,7 +29,7 @@ return(
               <Col lg="6" md="12">
               <h2 className="title"></h2>
               <h5 className="description">
-                Our windows launcher is required to play WildRP. If the above image does not work you can use our<a href='https://storage.googleapis.com/wildrp-launcher-downloads/WildRPLauncherSetup.exe'> alternative download link</a>
+                Our windows launcher is required to play WildRP. If the above image does not work you can use our<a href='https://storage.googleapis.com/wildrp-launcher-downloads/WildRPLauncherSetup.exe'> alternative download link.</a>
               </h5>
             </Col>
             </div>

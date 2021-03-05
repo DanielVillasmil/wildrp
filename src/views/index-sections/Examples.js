@@ -10,7 +10,7 @@ function Examples() {
     <>
       <div className="section section-examples" data-background-color="black">
         <div className="space-50"></div>
-        {/* <Container className="text-center">
+        <Container className="text-center">
           <Row>
             <div className="col">
               <a href="https://storage.googleapis.com/wildrp-launcher-downloads/WildRPLauncherSetup.exe" target="_blank">
@@ -32,7 +32,7 @@ function Examples() {
             </div>
             
           </Row>
-        </Container> */}
+        </Container>
       </div>
     </>
   );
