@@ -10,14 +10,12 @@ function NucleoIcons() {
       <div className="section section-nucleo-icons">
         <Container>
           <Row>
-            <Col lg="6" md="12">
+            {/* <Col lg="6" md="12">
               <h2 className="title">Nucleo Icons</h2>
               <h5 className="description">
-                Now UI Kit comes with 100 custom icons made by our friends from
-                NucleoApp. The official package contains over 2.100 thin icons
-                which are looking great in combination with Now UI Kit PRO Make
-                sure you check all of them and use those that you like the most.
+                Our windows launcher is required to play WildRP. If the above image does not work you can use our<a href='https://storage.googleapis.com/wildrp-launcher-downloads/WildRPLauncherSetup.exe'> alternative download link</a>
               </h5>
+              
               <Button
                 className="btn-round mr-1"
                 color="info"
@@ -56,7 +54,7 @@ function NucleoIcons() {
                 <i className="now-ui-icons objects_key-25"></i>
                 <i className="now-ui-icons travel_istanbul"></i>
               </div>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </div>

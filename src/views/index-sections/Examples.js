@@ -10,10 +10,10 @@ function Examples() {
     <>
       <div className="section section-examples" data-background-color="black">
         <div className="space-50"></div>
-        <Container className="text-center">
+        {/* <Container className="text-center">
           <Row>
             <div className="col">
-              <a href="examples/landing-page.html" target="_blank">
+              <a href="https://storage.googleapis.com/wildrp-launcher-downloads/WildRPLauncherSetup.exe" target="_blank">
                 <img
                   alt="..."
                   className="img-raised"
@@ -30,26 +30,9 @@ function Examples() {
                 View Landing Page
               </Button>
             </div>
-            <div className="col">
-              <a href="examples/profile-page.html" target="_blank">
-                <img
-                  alt="..."
-                  className="img-raised"
-                  src={require("assets/img/profile.jpg")}
-                ></img>
-              </a>
-              <Button
-                className="btn-round"
-                color="default"
-                to="/profile-page"
-                outline
-                tag={Link}
-              >
-                View Profile Page
-              </Button>
-            </div>
+            
           </Row>
-        </Container>
+        </Container> */}
       </div>
     </>
   );
