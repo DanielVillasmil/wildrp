@@ -37,11 +37,11 @@ ReactDOM.render(
       <Switch>
         <Route path="/index" render={(props) => <Index {...props} />} />
         <Route
-          path="/nucleo-icons"
+          path="/"
           render={(props) => <NucleoIcons {...props} />}
         />
         <Route
-          path="/landing-page"
+          path="/privacy"
           render={(props) => <LandingPage {...props} />}
         />
         <Route

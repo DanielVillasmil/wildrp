@@ -24,8 +24,6 @@
  * Copyright 2012-2013 Mattia Larentis
  * http://www.apache.org/licenses/LICENSE-2.0
  */
-
-
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
@@ -202,7 +200,6 @@
 .bootstrap-switch.bootstrap-switch-animate .bootstrap-switch-container {
   -webkit-transition: margin-left 0.5s;
   transition: margin-left 0.5s; }
-  
 
 .bootstrap-switch.bootstrap-switch-inverse .bootstrap-switch-handle-on {
   border-bottom-left-radius: 0;
