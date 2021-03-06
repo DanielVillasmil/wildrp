@@ -17,13 +17,14 @@ import Tabs from "./index-sections/Tabs.js";
 import Pagination from "./index-sections/Pagination.js";
 import Notifications from "./index-sections/Notifications.js";
 import Typography from "./index-sections/Typography.js";
-import Javascript from "./index-sections/Javascript.js";
-import Carousel from "./index-sections/Launcher.js";
+import Introduction from "./index-sections/Introduction.js";
+import Launcher from "./index-sections/Launcher.js";
 import NucleoIcons from "./index-sections/NucleoIcons.js";
-import CompleteExamples from "./index-sections/Discord.js";
+import Discord from "./index-sections/Discord.js";
 import SignUp from "./index-sections/SignUp.js";
 import Examples from "./index-sections/Examples.js";
 import Download from "./index-sections/Download.js";
+import BackgroundImage from '../assets/img/imgs/cover.jpg'
 
 function Index() {
   React.useEffect(() => {
@@ -39,27 +40,30 @@ function Index() {
   });
   return (
     <>
-      <IndexNavbar />
-      <div className="wrapper">
+    <IndexNavbar />
+      <div className="wrapper" >
+        <div className="main" >
+        <div style={{backgroundImage:`url(${BackgroundImage})`}}>
+        
         {/* <IndexHeader /> */}
-        <div className="main">
           {/* <Images /> */}
           {/* <BasicElements /> */}
-          <Navbars />
+          {/* <Navbars /> */}
           {/* <Tabs /> */}
           {/* <Pagination /> */}
           {/* <Notifications /> */}
           {/* <Typography /> */}
-          <Javascript />
-          <Carousel />
+          <Introduction />
+          <Launcher />
           {/* <NucleoIcons /> */}
-          <CompleteExamples />
+          <Discord />
           {/* <SignUp /> */}
           {/* <Examples /> */}
           {/* <Download /> */}
         </div>
         <DarkFooter />
       </div>
+    </div>
     </>
   );
 }

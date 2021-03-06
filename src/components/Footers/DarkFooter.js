@@ -6,13 +6,13 @@ import { Container } from "reactstrap";
 
 function DarkFooter() {
   return (
-    <footer className="footer" data-background-color="black">
+    <footer className="footer" style={{backgroundColor:'black', color:'white'}}>
       <Container>
         <nav>
           <ul>
             <li>
               <a
-                href="privacy.js"
+                href=""
                 target="_blank"
               >
                 PRIVACY POLICY
