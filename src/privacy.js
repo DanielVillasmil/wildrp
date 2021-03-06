@@ -2,7 +2,7 @@ import React from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 import BackgroundImage from '../assets/img/imgs/cover.jpg'
-import PrivacyInstr from "./views/index-sections/PrivacyInst";
+import PrivacyInstr from "./PrivacyInst";
 
 function Privacy() {
     React.useEffect(() => {
