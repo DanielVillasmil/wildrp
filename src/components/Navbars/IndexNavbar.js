@@ -89,8 +89,8 @@ function IndexNavbar() {
                         </DropdownToggle>
                         <DropdownMenu>
                           <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
+                            href="https://storage.googleapis.com/wildrp-launcher-downloads/WildRPLauncherSetup.exe"
+                            // onClick={(e) => e.preventDefault()}
                           >
                             DOWNLOAD LAUNCHER
                           </DropdownItem>
@@ -149,14 +149,14 @@ function IndexNavbar() {
                             BRANDING
                           </DropdownItem>
                           <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
+                            href="/Privacy.js"
+                            // onClick={(e) => e.preventDefault()}
                           >
                             PRIVACY POLICY
                           </DropdownItem>
                           <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
+                            href="/Rules.js"
+                            // onClick={(e) => e.preventDefault()}
                           >
                             RULES
                           </DropdownItem>
