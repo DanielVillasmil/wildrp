@@ -27,7 +27,7 @@ import "assets/demo/nucleo-icons-page-styles.css?v=1.4.0";
 // pages for this kit
 import Index from "views/Index.js";
 import Allowlist from "views/examples/Allowlist";
-import LoginPage from "views/examples/LoginPage.js";
+import Reportplayer from "views/examples/Reportplayer.js";
 import Privacy from "views/examples/Privacy.js";
 import Bugreport from "views/examples/Bugreport.js";
 import Rules from 'views/examples/Rules.js'
@@ -54,8 +54,8 @@ ReactDOM.render(
           render={(props) => <Bugreport {...props} />}
         />
         <Route
-          path="/login-page"
-          render={(props) => <LoginPage {...props} />}
+          path="/report"
+          render={(props) => <Reportplayer {...props} />}
         />
         <Redirect to="/index" />
         <Redirect from="/" to="/index" />
