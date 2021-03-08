@@ -3,11 +3,13 @@
 .form-control {
     background-color: $transparent-bg;
     border: 1px solid $light-gray;
-    border-radius: $btn-round-radius;
+    // border-radius: $btn-round-radius;
     color: $black-color;
-    height: auto;
-    line-height: normal;
-    font-size: $font-size-small;
+    height: 70px;
+    margin: 30px;
+    justify-content:left;
+    line-height: 100px;
+    // font-size: $font-size-small;
     @include transition-input-focus-color();
     @include box-shadow(none);
 
@@ -211,11 +213,11 @@
     margin-right: 0;
 
     .input-group-text {
-      border-left: 1px solid #E3E3E3;
+      border-left: 1px solid #ebdbdb00;
     }
   }
   .input-group-append .input-group-text {
-    border-right: 1px solid #E3E3E3;
+    border-right: 1px solid #e3e3e300;
     padding: 10px 18px 10px 0;
   }
 

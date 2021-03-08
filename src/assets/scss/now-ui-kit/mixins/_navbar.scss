@@ -19,7 +19,7 @@
 
         .dropdown.show .dropdown-menu,
         .dropdown .dropdown-menu{
-            background-color: transparent;
+            background-color: #000000;
             border: 0;
             transition: none;
             -webkit-box-shadow: none;
@@ -52,7 +52,7 @@
 
         .dropdown-menu .dropdown-item:focus,
         .dropdown-menu .dropdown-item:hover{
-            color: $white-color;
+            color: #000000;
             border-radius: $border-radius-small;
         }
 

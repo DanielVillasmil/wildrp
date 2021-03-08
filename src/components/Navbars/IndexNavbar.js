@@ -83,13 +83,15 @@ function IndexNavbar() {
                           color="default"
                           href="http://example.com?ref=creativetim"
                           nav
+                          
                         >
                           <p style={{fontSize:"15px"}}>MENU</p>
                         </DropdownToggle>
-                        <DropdownMenu>
+                        <DropdownMenu style={{backgroundColor:'#000000', color:'white'}}>
                           <DropdownItem
                             href="https://storage.googleapis.com/wildrp-launcher-downloads/WildRPLauncherSetup.exe"
                             // onClick={(e) => e.preventDefault()}
+                            style={{color:'#e4b85d', textDecoration:'none'}}
                           >
                             DOWNLOAD LAUNCHER
                           </DropdownItem>
@@ -118,8 +120,8 @@ function IndexNavbar() {
                             ALLOWLIST
                           </DropdownItem>
                           <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
+                            href="/Allowlist.js"
+                            // onClick={(e) => e.preventDefault()}
                           >
                             STAFF
                           </DropdownItem>

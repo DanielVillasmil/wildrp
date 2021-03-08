@@ -29,7 +29,7 @@ import Index from "views/Index.js";
 import Allowlist from "views/examples/Allowlist";
 import LoginPage from "views/examples/LoginPage.js";
 import Privacy from "views/examples/Privacy.js";
-import ProfilePage from "views/examples/ProfilePage.js";
+import Bugreport from "views/examples/Bugreport.js";
 import Rules from 'views/examples/Rules.js'
 
 ReactDOM.render(
@@ -50,8 +50,8 @@ ReactDOM.render(
         render={(props) => <Rules {...props} />}
         />
       <Route
-          path="/profile-page"
-          render={(props) => <ProfilePage {...props} />}
+          path="/bugs"
+          render={(props) => <Bugreport {...props} />}
         />
         <Route
           path="/login-page"

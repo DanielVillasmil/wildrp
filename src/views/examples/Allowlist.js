@@ -35,7 +35,7 @@ function Allowlist() {
       document.body.classList.remove("landing-page");
       document.body.classList.remove("sidebar-collapse");
     };
-  });
+});
   return (
     <>
       <IndexNavbar />
@@ -49,13 +49,13 @@ function Allowlist() {
                 {/* <div style={{backgroundImage:`url(${AlertImage})`}}> */}
                 <h4 className="description">We are currently accepting new whitelist applications, fill out our form with as
                         much detail as possible to have the best chance at being accepted. To be eligible for whitelist,
-                        you <b>MUST</b> be a member of our community <b><a style={{color:'#e4b85d'}} href="https://discord.gg/wildrp">Discord</a></b>,
+                        you <b>MUST</b> be a member of our community <b><a style={{color:'#e4b85d', textDecoration:'none'}} href="https://discord.gg/wildrp">Discord</a></b>,
                         have microphone suitable for voice-based roleplay, and be 18+
                     
                 </h4>
                 {/* </div> */}
         </Col>
-        <Form style={{width:'900px', border: 'solid', borderWidth:'1px'}}>
+        
             
                 {/* DISCORD */}
                 <div>
@@ -75,7 +75,7 @@ function Allowlist() {
                 {/* Time Zone */}
                 <div><Input type='field' name='text' id='timeZone' placeholder='Time Zone'required /></div>
             
-        </Form>
+        
         {/* SECOND PART */}
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
                 <h2 className="title" style={{color:'white'}}>GENERAL QUESTIONS</h2>
@@ -129,7 +129,14 @@ function Allowlist() {
                     </div>
 
 
+                    
+
                     <div><p>By clicking on the form submission button you are hereby giving WildRP's staff team the consent to utilize any data contained within the form for the express purposes of WildRP community membership administration functions.</p>
+                    </div>
+                    <div>
+                        <FormGroup>
+                            <Button>Submit</Button>
+                        </FormGroup>
                     </div>
                 {/* </div> */}
         </Col>
