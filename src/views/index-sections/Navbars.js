@@ -33,33 +33,51 @@ function Navbars() {
             }}
           >
            
-            <Navbar className="navbar-transparent" expand="lg"  >
-              <Container >
-                <div className="navbar-translate"  >
-                                  
+            <Navbar className="navbar-transparent" expand="lg">
+              <Container>
+                <div className="navbar-translate">
+                  
+                <NavbarBrand                  
+                    href="#pablo"
+                    onClick={(e) => e.preventDefault()}
+                  >
+                    <img  alt="..." src={require("../../assets/img/imgs/logo-white.png")}></img>
+                    
+                </NavbarBrand>
+                  <button
+                    onClick={() => {
+                      document.documentElement.classList.toggle("nav-open");
+                      setCollapseOpen(!collapseOpen);
+                    }}
+                    aria-expanded={collapseOpen}
+                    className="navbar-toggler"
+                  >
+                    <span className="navbar-toggler-bar bar1"></span>
+                    <span className="navbar-toggler-bar bar2"></span>
+                    <span className="navbar-toggler-bar bar3"></span>
+                  </button>
                   <Collapse isOpen={collapseOpen} navbar>
-                    <Nav navbar >
-                      <UncontrolledDropdown nav >
+                    <Nav navbar>
+                      <UncontrolledDropdown nav>
                         <DropdownToggle
                           aria-haspopup={true}
                           caret
                           color="default"
                           href="http://example.com?ref=creativetim"
                           nav
-                           
                         >
-                          <p >MENU</p>
+                          <p>MENU</p>
                         </DropdownToggle>
-                        <DropdownMenu dark >
+                        <DropdownMenu>
                           <DropdownItem
-                            
-                            href="https://storage.googleapis.com/wildrp-launcher-downloads/WildRPLauncherSetup.exe"
-                            active                      
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
                           >
                             DOWNLOAD LAUNCHER
                           </DropdownItem>
                           <DropdownItem
-                          
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
                           >
                             BUG REPORT
                           </DropdownItem>

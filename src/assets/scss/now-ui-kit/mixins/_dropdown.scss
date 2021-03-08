@@ -2,23 +2,23 @@
     background-color: $brand-color;
 
     &:before{
-        color:  black;
+        color: $brand-color;
     }
 
     .dropdown-header:not([href]):not([tabindex]){
-        color:  black;
+        color: $dropdown-header-color;
     }
 
     .dropdown-item{
-        color:  black;
+        color: $dropdown-color;
 
         &:hover,
         &:focus{
-            background-color:  black;
+            background-color: $background-color;
         }
     }
 
     .dropdown-divider{
-        background-color:  black;
+        background-color: $background-color;
     }
 }
