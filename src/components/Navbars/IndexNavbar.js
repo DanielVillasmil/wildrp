@@ -54,8 +54,7 @@ function IndexNavbar() {
           <div className="navbar-translate">
             <NavbarBrand
               href="index.js"
-              id="navbar-brand"
-              
+              id="navbar-brand"  
             >
             <img  alt="..." src={require("../../assets/img/imgs/logo-white.png")} width='100' ></img>
                     

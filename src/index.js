@@ -26,7 +26,7 @@ import "assets/demo/demo.css?v=1.4.0";
 import "assets/demo/nucleo-icons-page-styles.css?v=1.4.0";
 // pages for this kit
 import Index from "views/Index.js";
-import NucleoIcons from "views/NucleoIcons.js";
+import Allowlist from "views/examples/Allowlist";
 import LoginPage from "views/examples/LoginPage.js";
 import Privacy from "views/examples/Privacy.js";
 import ProfilePage from "views/examples/ProfilePage.js";
@@ -38,8 +38,8 @@ ReactDOM.render(
       <Switch>
         <Route path="/index" render={(props) => <Index {...props} />} />
         <Route
-          path="/nucleo-icons"
-          render={(props) => <NucleoIcons {...props} />}
+          path="/allowlist"
+          render={(props) => <Allowlist {...props} />}
         />
         <Route
           path="/privacy"
