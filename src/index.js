@@ -28,8 +28,9 @@ import "assets/demo/nucleo-icons-page-styles.css?v=1.4.0";
 import Index from "views/Index.js";
 import NucleoIcons from "views/NucleoIcons.js";
 import LoginPage from "views/examples/LoginPage.js";
-import LandingPage from "views/examples/LandingPage.js";
+import Privacy from "views/examples/Privacy.js";
 import ProfilePage from "views/examples/ProfilePage.js";
+import Rules from 'views/examples/Rules.js'
 
 ReactDOM.render(
   <BrowserRouter>
@@ -41,10 +42,14 @@ ReactDOM.render(
           render={(props) => <NucleoIcons {...props} />}
         />
         <Route
-          path="/landing-page"
-          render={(props) => <LandingPage {...props} />}
+          path="/privacy"
+          render={(props) => <Privacy {...props} />}
         />
         <Route
+        path="/rules"
+        render={(props) => <Rules {...props} />}
+        />
+      <Route
           path="/profile-page"
           render={(props) => <ProfilePage {...props} />}
         />

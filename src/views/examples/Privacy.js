@@ -18,7 +18,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 import BackgroundImage from '../../assets/img/imgs/cover.jpg'
 
-function LandingPage() {
+function Privacy() {
   React.useEffect(() => {
     document.body.classList.add("landing-page");
     document.body.classList.add("sidebar-collapse");
@@ -38,9 +38,9 @@ function LandingPage() {
         <div className="main" >
         <div className="section" style={{backgroundImage:`url(${BackgroundImage})`}}>
           
-            <Row className="" style={{color:'white'}}>
-              <Col className="ml-auto mr-auto " md="8">
-                <h2 className="title">PRIVACY POLICY</h2>
+           
+              <Col className="ml-auto mr-auto " md="8" style={{color:'white'}}>
+                <h2 className="title" >PRIVACY POLICY</h2>
                 <h5 className="description">
                 <p>WildRP.com respects the privacy of its website visitors, in particular their rights regarding the automatic processing of
                 personal data. We have therefore formulated and implemented a policy on complete transparency with our customers
@@ -87,7 +87,7 @@ can not be considered as a tacit consent, nor of a waiver of any right to prosec
                 
                 </h5>
               </Col>
-              </Row>
+              
               </div>
               
               <div className="section" style={{color:'white',
@@ -222,4 +222,4 @@ WildRP, privacy@wildrp.com.</p>
   );
 }
 
-export default LandingPage;
+export default Privacy;
