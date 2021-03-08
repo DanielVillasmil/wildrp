@@ -6,7 +6,7 @@ import { Container, Row, Col, Button } from "reactstrap";
 
 // core components
 
-function CompleteExamples() {
+function Discord() {
   return (
     <>
       <div className="section" style={{
@@ -53,4 +53,4 @@ function CompleteExamples() {
   );
 }
 
-export default CompleteExamples;
+export default Discord;
