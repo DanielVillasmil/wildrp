@@ -1,36 +1,24 @@
 import React from "react";
+import ReactDOM from "react-dom";
+import BackgroundImage from '../../assets/img/imgs/cover.jpg'
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
-import DarkFooter from "components/Footers/DarkFooter.js";
-import BackgroundImage from '../assets/img/imgs/cover.jpg'
-import PrivacyInstr from "./PrivacyInst";
 
-function Privacy() {
-    React.useEffect(() => {
-      document.body.classList.add("index-page");
-      document.body.classList.add("sidebar-collapse");
-      document.documentElement.classList.remove("nav-open");
-      window.scrollTo(0, 0);
-      document.body.scrollTop = 0;
-      return function cleanup() {
-        document.body.classList.remove("index-page");
-        document.body.classList.remove("sidebar-collapse");
-      };
-    });
-    return (
-      <>
-      <IndexNavbar />
-        <div className="wrapper" >
-          <div className="main" >
-          <div style={{backgroundImage:`url(${BackgroundImage})`}}>
-           
-          </div>
-          <DarkFooter />
-          <PrivacyInstr/>
-        </div>
-      </div>
-      </>
-    );
-  }
-  
-  export default Privacy;
+// reactstrap components
+import { Container, Row, Col, Button } from "reactstrap";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+
+
+ReactDOM.render(
+  <BrowserRouter>
+    <Switch>
+      <Switch>
+        
+        {/* <Route path="/privacy" render={(props) => <PrivacyInstr {...props} />} /> */}
+        {/* <Redirect to="/index" />
+        <Redirect from="/" to="/index" /> */}
+      </Switch>
+    </Switch>
+  </BrowserRouter>,
+  document.getElementById("root")
+);
   
