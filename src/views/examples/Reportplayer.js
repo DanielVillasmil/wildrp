@@ -82,6 +82,8 @@ function Reportplayer() {
                     </div>
 
                     
+                    <div><p>By clicking on the form submission button you are hereby giving WildRP's staff team the consent to utilize any data contained within the form for the express purposes of WildRP community membership administration functions.</p>
+                    </div>
                         <FormGroup>
                             <Button>Submit</Button>
                         </FormGroup>

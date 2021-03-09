@@ -34,6 +34,8 @@ import Rules from 'views/examples/Rules.js'
 import Banappeal from "views/examples/Banappeal";
 import Staffapp from "views/examples/Staffapp";
 import Devapp from "views/examples/Devapp";
+import Lawapp from "views/examples/Lawapp";
+import Streamapp from "views/examples/Streamapp";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -71,6 +73,14 @@ ReactDOM.render(
         <Route
           path="/developer"
           render={(props) => <Devapp {...props} />}
+        />
+        <Route
+          path="/law"
+          render={(props) => <Lawapp {...props} />}
+        />
+        <Route
+          path="/streamers"
+          render={(props) => <Streamapp {...props} />}
         />
         <Redirect to="/index" />
         <Redirect from="/" to="/index" />
