@@ -36,6 +36,7 @@ import Staffapp from "views/examples/Staffapp";
 import Devapp from "views/examples/Devapp";
 import Lawapp from "views/examples/Lawapp";
 import Streamapp from "views/examples/Streamapp";
+import Branding from "views/examples/Branding";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -81,6 +82,10 @@ ReactDOM.render(
         <Route
           path="/streamers"
           render={(props) => <Streamapp {...props} />}
+        />
+        <Route
+          path="/branding"
+          render={(props) => <Branding {...props} />}
         />
         <Redirect to="/index" />
         <Redirect from="/" to="/index" />
