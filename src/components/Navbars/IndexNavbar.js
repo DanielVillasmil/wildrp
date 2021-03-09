@@ -55,6 +55,7 @@ function IndexNavbar() {
             <NavbarBrand
               href="index.js"
               id="navbar-brand"
+              
             >
             <img  alt="..." src={require("../../assets/img/imgs/logo-white.png")} width='100' ></img>
                     
@@ -64,16 +65,11 @@ function IndexNavbar() {
               <Collapse isOpen={collapseOpen} navbar>
                     <Nav navbar>
                       <UncontrolledDropdown nav>
-                        <DropdownToggle
-                          aria-haspopup={true}
-                          caret
-                          color="default"
-                          href="http://example.com?ref=creativetim"
-                          nav
-                          
-                        >
-                          <p style={{fontSize:"15px", color:'#e4b85d'}}>MENU</p>
+                       
+                        <DropdownToggle nav>
+                          <p style={{fontSize:"18px", color:'#e4b85d', textAlign:'center'}}>MENU</p>
                         </DropdownToggle>
+                        
                         <DropdownMenu style={{backgroundColor:'#000000', color:'white'}}>
                           <DropdownItem
                             href="https://storage.googleapis.com/wildrp-launcher-downloads/WildRPLauncherSetup.exe"
