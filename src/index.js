@@ -31,6 +31,8 @@ import Reportplayer from "views/examples/Reportplayer.js";
 import Privacy from "views/examples/Privacy.js";
 import Bugreport from "views/examples/Bugreport.js";
 import Rules from 'views/examples/Rules.js'
+import Banappeal from "views/examples/Banappeal";
+import Staffapp from "views/examples/Staffapp";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -46,16 +48,24 @@ ReactDOM.render(
           render={(props) => <Privacy {...props} />}
         />
         <Route
-        path="/rules"
-        render={(props) => <Rules {...props} />}
+          path="/rules"
+          render={(props) => <Rules {...props} />}
         />
-      <Route
+        <Route
           path="/bugs"
           render={(props) => <Bugreport {...props} />}
         />
         <Route
           path="/report"
           render={(props) => <Reportplayer {...props} />}
+        />
+        <Route
+          path="/appeal"
+          render={(props) => <Banappeal {...props} />}
+        />
+        <Route
+          path="/staffapp"
+          render={(props) => <Staffapp {...props} />}
         />
         <Redirect to="/index" />
         <Redirect from="/" to="/index" />
