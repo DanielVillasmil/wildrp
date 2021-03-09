@@ -33,6 +33,7 @@ import Bugreport from "views/examples/Bugreport.js";
 import Rules from 'views/examples/Rules.js'
 import Banappeal from "views/examples/Banappeal";
 import Staffapp from "views/examples/Staffapp";
+import Devapp from "views/examples/Devapp";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -64,8 +65,12 @@ ReactDOM.render(
           render={(props) => <Banappeal {...props} />}
         />
         <Route
-          path="/staffapp"
+          path="/staff"
           render={(props) => <Staffapp {...props} />}
+        />
+        <Route
+          path="/developer"
+          render={(props) => <Devapp {...props} />}
         />
         <Redirect to="/index" />
         <Redirect from="/" to="/index" />
