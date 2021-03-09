@@ -23,6 +23,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 import BackgroundImage from '../../assets/img/imgs/cover.jpg'
 import AlertImage from '../../assets/img/imgs/stamp.png'
+import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 
 function Bugreport() {
   React.useEffect(() => {
@@ -46,9 +47,16 @@ function Bugreport() {
         <Container>
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
                 <h2 className="title" style={{color:'white'}}>BUG REPORT</h2>
-                {/* <div style={{backgroundImage:`url(${AlertImage})`}}> */}
+
+                <div>
+                <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                <span style={{color:'#e4b85d'}}>BUG REPORT</span></p>
+                </div>
+                
+
+                
                 <h4 className="description">Please help us by taking a few minutes to fill out the form bellow if you have experienced a bug on one of our servers. Please make sure you fill out everything as in-depth as possible.</h4>
-                {/* </div> */}
+                
         </Col>
         <h2 className="description">QUESTION #1.</h2>
        
@@ -69,7 +77,7 @@ function Bugreport() {
         {/* SECOND PART */}
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
                 <h2 className="title" style={{color:'white'}}>QUESTION #2</h2>
-                {/* <div style={{backgroundImage:`url(${AlertImage})`}}> */}
+               
                     <div>
                          <Label for='bugDescription'>What is the bug? Please make sure you are as detailed as possible</Label>
                         <Input type='field' name='text' id='bugDescription' placeholder=''required />
@@ -85,7 +93,7 @@ function Bugreport() {
                             <Button>Submit</Button>
                         </FormGroup>
                     
-                {/* </div> */}
+                
         </Col>
         </Container>
         </div>

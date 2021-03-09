@@ -23,6 +23,8 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 import BackgroundImage from '../../assets/img/imgs/cover.jpg'
 import AlertImage from '../../assets/img/imgs/stamp.png'
+import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
+
 
 function Reportplayer() {
   React.useEffect(() => {
@@ -46,9 +48,16 @@ function Reportplayer() {
         <Container>
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
                 <h2 className="title" style={{color:'white'}}>REPORT PLAYER</h2>
-                {/* <div style={{backgroundImage:`url(${AlertImage})`}}> */}
+
+                <div>
+                <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                <span style={{color:'#e4b85d'}}>REPORT PLAYER</span></p>
+                </div>
+                
+
+               
                 <h4 className="description">If a player has broken our rules please give us as much information as you can. Including screenshots and a real explanation of what happened.</h4>
-                {/* </div> */}
+             
         </Col>
         <h2 className="description">QUESTION #1.</h2>
        
@@ -69,7 +78,7 @@ function Reportplayer() {
         {/* SECOND PART */}
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
                 <h2 className="title" style={{color:'white'}}>QUESTION #2</h2>
-                {/* <div style={{backgroundImage:`url(${AlertImage})`}}> */}
+                
                     <div>
                          <Label for='brokenRule'>How did the player break the rules?</Label>
                         <Input type='field' name='text' id='brokenRule' placeholder=''required />
@@ -88,7 +97,7 @@ function Reportplayer() {
                             <Button>Submit</Button>
                         </FormGroup>
                     
-                {/* </div> */}
+               
         </Col>
         </Container>
         </div>

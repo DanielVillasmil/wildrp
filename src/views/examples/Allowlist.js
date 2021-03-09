@@ -23,6 +23,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 import BackgroundImage from '../../assets/img/imgs/cover.jpg'
 import AlertImage from '../../assets/img/imgs/stamp.png'
+import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 
 function Allowlist() {
   React.useEffect(() => {
@@ -45,15 +46,23 @@ function Allowlist() {
         <div className="section" style={{backgroundImage:`url(${BackgroundImage})`}}>
         <Container>
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
-                <h2 className="title" style={{color:'white'}}>GENERAL QUESTIONS</h2>
-                {/* <div style={{backgroundImage:`url(${AlertImage})`}}> */}
+                <h2 className="title" style={{color:'white'}}>ALLOWLIST APPLICATION</h2>
+                
+                <div>
+                <p><a href='index.js' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                <span style={{color:'#e4b85d'}}>ALLOWLIST APPLICATION</span></p>
+                </div>
+                
+                
+
+                
                 <h4 className="description">We are currently accepting new whitelist applications, fill out our form with as
                         much detail as possible to have the best chance at being accepted. To be eligible for whitelist,
                         you <b>MUST</b> be a member of our community <b><a style={{color:'#e4b85d', textDecoration:'none'}} href="https://discord.gg/wildrp">Discord</a></b>,
                         have microphone suitable for voice-based roleplay, and be 18+
                     
                 </h4>
-                {/* </div> */}
+                
         </Col>
         
             
@@ -79,7 +88,7 @@ function Allowlist() {
         {/* SECOND PART */}
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
                 <h2 className="title" style={{color:'white'}}>GENERAL QUESTIONS</h2>
-                {/* <div style={{backgroundImage:`url(${AlertImage})`}}> */}
+               
                 <h4 className="description"><b>WildRP has a set standard of roleplay that we expect from our whitelisted members.</b></h4>
                 <p>Please submit some sort of media that showcases your roleplaying ability. Here are a few examples:</p>
                     <p>- Voice Acting Reel</p>
@@ -138,7 +147,7 @@ function Allowlist() {
                             <Button>Submit</Button>
                         </FormGroup>
                     </div>
-                {/* </div> */}
+                
         </Col>
         </Container>
         </div>

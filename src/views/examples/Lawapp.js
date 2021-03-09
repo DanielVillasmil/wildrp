@@ -23,6 +23,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 import BackgroundImage from '../../assets/img/imgs/cover.jpg'
 import AlertImage from '../../assets/img/imgs/stamp.png'
+import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 
 function Allowlist() {
   React.useEffect(() => {
@@ -46,14 +47,22 @@ function Allowlist() {
         <Container>
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
                 <h2 className="title" style={{color:'white'}}>LAW APPLICATION</h2>
-                {/* <div style={{backgroundImage:`url(${AlertImage})`}}> */}
+
+                <div>
+                <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                <span style={{color:'#e4b85d'}}>LAW APPLICATION</span></p>
+                </div>
+                
+
+
+                
                 <h4 className="description">Law Enforcement applications are currently available for whitelisted members only.
                         Please provide as much detail as possible to the questions below as these positions will be
                         limited and in high demand, and we want to be sure this department provides satisfying roleplay
                         for our community.
                     
                 </h4>
-                {/* </div> */}
+              
         </Col>
         
                 <h2 className="title" style={{color:'white'}}>QUESTION #1</h2>
@@ -80,7 +89,7 @@ function Allowlist() {
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
                 <h2 className="title" style={{color:'white'}}>QUESTION #2</h2>
                 <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
-                {/* <div style={{backgroundImage:`url(${AlertImage})`}}> */}
+                
                 <div>
                          <Label for='position'>Do you have past Law Enforcement experience? If, for how long?</Label>
                         <Input type='field' name='text' id='position' placeholder=''required />
@@ -109,7 +118,7 @@ function Allowlist() {
                     </div>
 
                     
-                {/* </div> */}
+                
         </Col>
 
 
@@ -122,7 +131,7 @@ function Allowlist() {
                             <Button>Submit</Button>
                         </FormGroup>
                     </div>
-                {/* </div> */}
+                
         </Col>
         </Container>
         </div>

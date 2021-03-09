@@ -23,6 +23,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 import BackgroundImage from '../../assets/img/imgs/cover.jpg'
 import AlertImage from '../../assets/img/imgs/stamp.png'
+import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 
 function Branding() {
   React.useEffect(() => {
@@ -46,11 +47,17 @@ function Branding() {
         <Container>
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
                 <h2 className="title" style={{color:'white'}}>BRANDING</h2>
-                {/* <div style={{backgroundImage:`url(${AlertImage})`}}> */}
+
+                <div>
+                <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                <span style={{color:'#e4b85d'}}>BRANDING</span></p>
+                </div>
+
+                
                 <h4 className="description">We are keen on keeping things in high quality, so if you are gonna use our art for something, please
                 keep it tasteful, you can download our artwork below.
                 </h4>
-                {/* </div> */}
+               
         </Col>
         
             
@@ -58,7 +65,7 @@ function Branding() {
         
         {/* SECOND PART */}
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
-                {/* <div style={{backgroundImage:`url(${AlertImage})`}}> */}
+               
                 
                     <div>
                     {/* <p>Streamer Package<a href="/branding-dir/wildrp_streamer.zip">Download File</a></p> */}
@@ -84,7 +91,7 @@ function Branding() {
                     </div>
     
                     
-                {/* </div> */}
+                
         </Col>
         </Container>
         </div>

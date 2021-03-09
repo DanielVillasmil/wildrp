@@ -17,6 +17,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 // import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 import BackgroundImage from '../../assets/img/imgs/cover.jpg'
+import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 
 function Rules() {
   React.useEffect(() => {
@@ -41,6 +42,14 @@ function Rules() {
             <Row className="" style={{color:'white'}}>
               <Col className="ml-auto mr-auto " md="12">
                 <h2 className="title" >SERVER RULES</h2>
+
+                <div>
+                <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                <span style={{color:'#e4b85d'}}>SERVER RULES</span></p>
+                </div>
+                
+
+
               </Col>
               <Col className="ml-auto mr-auto" md="12">
                 <h2 className="title">BASIC TERMS OF SERVICE</h2>

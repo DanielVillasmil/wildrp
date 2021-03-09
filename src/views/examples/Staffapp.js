@@ -23,6 +23,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 import BackgroundImage from '../../assets/img/imgs/cover.jpg'
 import AlertImage from '../../assets/img/imgs/stamp.png'
+import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 
 function Staffapp() {
   React.useEffect(() => {
@@ -46,7 +47,15 @@ function Staffapp() {
         <Container>
         <Col className="ml-auto mr-auto " md="12" style={{}}>
                 <h2 className="title">STAFF APPLICATION</h2>
-                {/* <div style={{backgroundImage:`url(${AlertImage})`}}> */}
+
+                <div>
+                <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                <span style={{color:'#e4b85d'}}>STAFF APPLICATION</span></p>
+                </div>
+                
+
+
+               
                 <h4 className="description" style={{color:'white'}}>The Staff team at WildRP has learned that running a brand new style of total game modification roleplay community 
                         is difficult and challenging work. The team often requires more help then we have available, and may be looking for 
                         new team members to assist the community. Support Staff are the frontline of WildRP and everything we do starts with 
@@ -70,7 +79,7 @@ function Staffapp() {
 
                         
                         </h4>
-                {/* </div> */}
+               
         </Col>
        
                 <h2 className="description">QUESTION #1.</h2>

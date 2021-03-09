@@ -23,6 +23,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 import BackgroundImage from '../../assets/img/imgs/cover.jpg'
 import AlertImage from '../../assets/img/imgs/stamp.png'
+import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 
 function Streamapp() {
   React.useEffect(() => {
@@ -45,9 +46,15 @@ function Streamapp() {
         <div className="section" style={{backgroundImage:`url(${BackgroundImage})`}}>
         <Container>
         <Col className="ml-auto mr-auto text-center " md="12" style={{color:'white'}}>
+
+                
+                <div>
                 <h2 className="title" style={{color:'white'}}>HIGHLIGHTED<br></br>STREAMER</h2>
-                {/* <div style={{backgroundImage:`url(${AlertImage})`}}> */}
-                {/* </div> */}
+
+                <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                <span style={{color:'#e4b85d'}}>STREAMER HIGHLIGHT</span></p>
+                </div>
+               
         </Col>
         
             

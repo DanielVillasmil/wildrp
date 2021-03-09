@@ -23,6 +23,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 import BackgroundImage from '../../assets/img/imgs/cover.jpg'
 import AlertImage from '../../assets/img/imgs/stamp.png'
+import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 
 function Banappeal() {
   React.useEffect(() => {
@@ -46,11 +47,19 @@ function Banappeal() {
         <Container>
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
                 <h2 className="title" style={{color:'white'}}>APPEAL BAN</h2>
-                {/* <div style={{backgroundImage:`url(${AlertImage})`}}> */}
+
+                <div>
+                <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                <span style={{color:'#e4b85d'}}>BAN APPEAL</span></p>
+                </div>
+                
+
+
+                
                 <h4 className="description">If you have been banned, you can appeal to get your ban lifted below, please be patient
                 this
                 process can take a little while.</h4>
-                {/* </div> */}
+               
         </Col>
         <h2 className="description">QUESTION #1.</h2>
        
@@ -76,7 +85,7 @@ function Banappeal() {
         {/* SECOND PART */}
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
                 <h2 className="title" style={{color:'white'}}>QUESTION #2</h2>
-                {/* <div style={{backgroundImage:`url(${AlertImage})`}}> */}
+               
                     <div>
                         <Label for='brokenRule'>Why you feel you should be unbanned</Label>
                         <Input type='field' name='text' id='appealReason' placeholder=''required />
@@ -87,7 +96,7 @@ function Banappeal() {
                             <Button>Submit</Button>
                         </FormGroup>
                     
-                {/* </div> */}
+                
         </Col>
         </Container>
         </div>

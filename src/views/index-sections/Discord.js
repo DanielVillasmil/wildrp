@@ -10,7 +10,7 @@ function Discord() {
   return (
     <>
       <div className="section" style={{
-        backgroundColor: '#050b0b', marginTop:'-30px'
+        backgroundColor: '#050b0b'
         
       }}>
         <Container className="text-center" style={{color:'white', marginTop:'80px'}} >

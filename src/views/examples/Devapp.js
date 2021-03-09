@@ -23,6 +23,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 import BackgroundImage from '../../assets/img/imgs/cover.jpg'
 import AlertImage from '../../assets/img/imgs/stamp.png'
+import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 
 function Devapp() {
   React.useEffect(() => {
@@ -46,9 +47,15 @@ function Devapp() {
         <Container>
         <Col className="ml-auto mr-auto " md="12" style={{}}>
                 <h2 className="title">DEVELOPER APPLICATION</h2>
-                {/* <div style={{backgroundImage:`url(${AlertImage})`}}> */}
+
+                <div>
+                <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                <span style={{color:'#e4b85d'}}>DEVELOPER APPLICATION</span></p>
+                </div>
+
+               
                 <h4 className="description" style={{color:'white'}}>We are always on the lookout for like-minded developers to join our team and help us improve our world. If you are up to the job, please fill in the form below. </h4>
-                {/* </div> */}
+               
         </Col>
        
                 <h2 className="description">QUESTION #1.</h2>
@@ -67,7 +74,7 @@ function Devapp() {
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
                 <h2 className="title" style={{color:'white'}}>QUESTION #2</h2>
                     <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
-                {/* <div style={{backgroundImage:`url(${AlertImage})`}}> */}
+                
                     <div>
                          <Label for='position'>Have you received any warnings or bans in WildRPs discord or game servers?</Label>
                         <Input type='field' name='text' id='position' placeholder=''required />
@@ -93,7 +100,7 @@ function Devapp() {
                     </div>
 
                     
-                {/* </div> */}
+                
         </Col>
                     
                     <div><p>By clicking on the form submission button you are hereby giving WildRP's staff team the consent to utilize any data contained within the form for the express purposes of WildRP community membership administration functions.</p>
@@ -102,7 +109,7 @@ function Devapp() {
                             <Button>Submit</Button>
                         </FormGroup>
                     
-                {/* </div> */}
+                
         </Col>
         </Container>
         </div>

@@ -17,6 +17,8 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 // import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 import BackgroundImage from '../../assets/img/imgs/cover.jpg'
+import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
+
 
 function Privacy() {
   React.useEffect(() => {
@@ -41,6 +43,13 @@ function Privacy() {
            
               <Col className="ml-auto mr-auto " md="8" style={{color:'white'}}>
                 <h2 className="title" >PRIVACY POLICY</h2>
+
+                <div>
+                <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                <span style={{color:'#e4b85d'}}>PRIVACY POLICY</span></p>
+                </div>
+                
+
                 <h5 className="description">
                 <p>WildRP.com respects the privacy of its website visitors, in particular their rights regarding the automatic processing of
                 personal data. We have therefore formulated and implemented a policy on complete transparency with our customers
