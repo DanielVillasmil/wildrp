@@ -54,25 +54,12 @@ function IndexNavbar() {
           <div className="navbar-translate">
             <NavbarBrand
               href="index.js"
-              id="navbar-brand"  
+              id="navbar-brand"
             >
             <img  alt="..." src={require("../../assets/img/imgs/logo-white.png")} width='100' ></img>
                     
             </NavbarBrand>
       
-            <button
-              className="navbar-toggler navbar-toggler"
-              onClick={() => {
-                document.documentElement.classList.toggle("nav-open");
-                setCollapseOpen(!collapseOpen);
-              }}
-              aria-expanded={collapseOpen}
-              type="button"
-            >
-              <span className="navbar-toggler-bar top-bar"></span>
-              <span className="navbar-toggler-bar middle-bar"></span>
-              <span className="navbar-toggler-bar bottom-bar"></span>
-            </button>
           </div>
               <Collapse isOpen={collapseOpen} navbar>
                     <Nav navbar>
@@ -85,7 +72,7 @@ function IndexNavbar() {
                           nav
                           
                         >
-                          <p style={{fontSize:"15px"}}>MENU</p>
+                          <p style={{fontSize:"15px", color:'#e4b85d'}}>MENU</p>
                         </DropdownToggle>
                         <DropdownMenu style={{backgroundColor:'#000000', color:'white'}}>
                           <DropdownItem
@@ -96,67 +83,67 @@ function IndexNavbar() {
                             DOWNLOAD LAUNCHER
                           </DropdownItem>
                           <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
+                            href="Bugreport.js"
+                            // onClick={(e) => e.preventDefault()}
                           >
                             BUG REPORT
                           </DropdownItem>
                           <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
+                            href="Reportplayer.js"
+                            // onClick={(e) => e.preventDefault()}
                           >
                             REPORT PLAYER
                           </DropdownItem>
                           <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
+                            href="Banappeal.js"
+                            // onClick={(e) => e.preventDefault()}
                           >
                             BAN APPEAL
                           </DropdownItem>
                           <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
+                            href="Allowlist.js"
+                            // onClick={(e) => e.preventDefault()}
                           >
                             ALLOWLIST
                           </DropdownItem>
                           <DropdownItem
-                            href="/Allowlist.js"
+                            href="Staffapp.js"
                             // onClick={(e) => e.preventDefault()}
                           >
                             STAFF
                           </DropdownItem>
                           <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
+                            href="Devapp.js"
+                            // onClick={(e) => e.preventDefault()}
                           >
                             DEVELOPER
                           </DropdownItem>
                           <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
+                            href="Lawapp.js"
+                            // onClick={(e) => e.preventDefault()}
                           >
                             LAW ENFORCEMENT
                           </DropdownItem>
                           <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
+                            href="Streamapp"
+                            // onClick={(e) => e.preventDefault()}
                           >
                             STREAMERS
                           </DropdownItem>
                           <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
+                            href="Branding.js"
+                            // onClick={(e) => e.preventDefault()}
                           >
                             BRANDING
                           </DropdownItem>
                           <DropdownItem
-                            href="/Privacy.js"
+                            href="Privacy.js"
                             // onClick={(e) => e.preventDefault()}
                           >
                             PRIVACY POLICY
                           </DropdownItem>
                           <DropdownItem
-                            href="/Rules.js"
+                            href="Rules.js"
                             // onClick={(e) => e.preventDefault()}
                           >
                             RULES

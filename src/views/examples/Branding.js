@@ -61,8 +61,8 @@ function Branding() {
                 {/* <div style={{backgroundImage:`url(${AlertImage})`}}> */}
                 
                     <div>
-                    <p>Streamer Package<a href="/branding-dir/wildrp_streamer.zip">Download File</a></p>
-                    <p>Logo White<a href="/branding-dir/logo.zip">Download File</a></p>
+                    {/* <p>Streamer Package<a href="/branding-dir/wildrp_streamer.zip">Download File</a></p> */}
+                    <p>Logo White<a href="../../assets/branding-dir/logo.zip" download>Download File</a></p>
                     <p>Logo Print White<a href="/branding-dir/logo-print.zip">Download File</a></p>
                     <p>Icon 24 x 24 (W)<a href="/branding-dir/24x24.zip">Download File</a></p>
                     <p>Icon 48 x 48 (W)<a href="/branding-dir/48x48.zip">Download File</a></p>
