@@ -28,8 +28,9 @@ function Introduction() {
                 href="allowlist.js"
                 outline
                 size="lg"
-                style={{color:'#e4b85d', fontSize:'20px', marginTop:'120px', marginBottom:'80px'}}
+                style={{color:'#e4b85d', fontSize:'20px', marginTop:'110px', marginBottom:'60px'}}
               >ALLOW-LIST APPLICATIONS
+              <img src={require('assets/img/imgs/wheel.svg')}></img>
               </Button>
               </div>
       </div>

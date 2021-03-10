@@ -35,13 +35,14 @@ function Discord() {
                 style={{color:'#e4b85d', marginTop:'50px', fontSize:'25px'}}
               >
                 LAUNCH DISCORD
+                <img src={require('assets/img/imgs/wheel.svg')}></img>
               </Button>
               </div>
               <Container className="text-center" >
           <Row className="justify-content-md-center">
           <div className='text-center'>
             <Col lg='8' md='10'>
-              <h6 className="description" style={{marginTop:'60px', width:'800px', fontSize:'15px'}}>
+              <h6 className="" style={{marginTop:'60px', width:'800px', fontSize:'12px'}}>
                 IF YOU ARE NOT ON THE WILDRP DISCORD AT THE TIME OF YOUR APPLICATION SUBMISSION, YOUR APPLICATION WILL BE AUTOMATICALLY DENIED. DUE TO THE CURRENT VOLUME OF APPLICATIONS WILDRP IS CURRENTLY ONLY HANDLING APPLICATION COMMUNICATION VIA DISCORD.
               </h6>
               </Col>

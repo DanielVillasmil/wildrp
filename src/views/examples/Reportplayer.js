@@ -47,7 +47,7 @@ function Reportplayer() {
         <div className="section" style={{backgroundImage:`url(${BackgroundImage})`}}>
         <Container>
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
-                <h2 className="title" style={{color:'white'}}>REPORT PLAYER</h2>
+                <h2 className="" style={{color:'white'}}>REPORT PLAYER</h2>
 
                 <div>
                 <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
@@ -56,10 +56,10 @@ function Reportplayer() {
                 
 
                
-                <h4 className="description">If a player has broken our rules please give us as much information as you can. Including screenshots and a real explanation of what happened.</h4>
+                <h4 className=""style={{color:'white'}}>If a player has broken our rules please give us as much information as you can. Including screenshots and a real explanation of what happened.</h4>
              
         </Col>
-        <h2 className="description">QUESTION #1.</h2>
+        <h2 className=""style={{color:'white'}}>QUESTION #1.</h2>
        
             
                 {/* PLAYER ID */}
@@ -77,7 +77,7 @@ function Reportplayer() {
             
         {/* SECOND PART */}
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
-                <h2 className="title" style={{color:'white'}}>QUESTION #2</h2>
+                <h2 className="" style={{color:'white'}}>QUESTION #2</h2>
                 
                     <div>
                          <Label for='brokenRule'>How did the player break the rules?</Label>
@@ -94,7 +94,9 @@ function Reportplayer() {
                     <div><p>By clicking on the form submission button you are hereby giving WildRP's staff team the consent to utilize any data contained within the form for the express purposes of WildRP community membership administration functions.</p>
                     </div>
                         <FormGroup>
-                            <Button>Submit</Button>
+                            <Button>Submit
+                            <img src={require('assets/img/imgs/wheel.svg')}></img>
+                            </Button>
                         </FormGroup>
                     
                

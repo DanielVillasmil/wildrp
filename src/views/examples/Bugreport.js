@@ -46,7 +46,7 @@ function Bugreport() {
         <div className="section" style={{backgroundImage:`url(${BackgroundImage})`}}>
         <Container>
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
-                <h2 className="title" style={{color:'white'}}>BUG REPORT</h2>
+                <h2 className="" style={{color:'white'}}>BUG REPORT</h2>
 
                 <div>
                 <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
@@ -55,10 +55,10 @@ function Bugreport() {
                 
 
                 
-                <h4 className="description">Please help us by taking a few minutes to fill out the form bellow if you have experienced a bug on one of our servers. Please make sure you fill out everything as in-depth as possible.</h4>
+                <h4 className="description" style={{color:'white'}}>Please help us by taking a few minutes to fill out the form bellow if you have experienced a bug on one of our servers. Please make sure you fill out everything as in-depth as possible.</h4>
                 
         </Col>
-        <h2 className="description">QUESTION #1.</h2>
+        <h2 className="description" style={{color:'white'}}>QUESTION #1.</h2>
        
             
                 {/* DISCORD */}
@@ -76,7 +76,7 @@ function Bugreport() {
             
         {/* SECOND PART */}
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
-                <h2 className="title" style={{color:'white'}}>QUESTION #2</h2>
+                <h2 className="" style={{color:'white'}}>QUESTION #2</h2>
                
                     <div>
                          <Label for='bugDescription'>What is the bug? Please make sure you are as detailed as possible</Label>
@@ -90,7 +90,9 @@ function Bugreport() {
                     <div><p>By clicking on the form submission button you are hereby giving WildRP's staff team the consent to utilize any data contained within the form for the express purposes of WildRP community membership administration functions.</p>
                     </div>
                         <FormGroup>
-                            <Button>Submit</Button>
+                            <Button>Submit
+                            <img src={require('assets/img/imgs/wheel.svg')}></img>
+                            </Button>
                         </FormGroup>
                     
                 

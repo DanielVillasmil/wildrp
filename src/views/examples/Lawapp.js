@@ -21,8 +21,7 @@ import {
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 // import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
-import BackgroundImage from '../../assets/img/imgs/cover.jpg'
-import AlertImage from '../../assets/img/imgs/stamp.png'
+import BackgroundImage from '../../assets/img/imgs/cover.jpg';
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 
 function Allowlist() {
@@ -46,26 +45,29 @@ function Allowlist() {
         <div className="section" style={{backgroundImage:`url(${BackgroundImage})`}}>
         <Container>
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
-                <h2 className="title" style={{color:'white'}}>LAW APPLICATION</h2>
+                <h2 className="" style={{color:'white'}}>LAW APPLICATION</h2>
 
                 <div>
-                <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                <p>
+                  <a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
                 <span style={{color:'#e4b85d'}}>LAW APPLICATION</span></p>
                 </div>
                 
 
-
-                
-                <h4 className="description">Law Enforcement applications are currently available for whitelisted members only.
+                <div style={{padding:'10px', color:"white", border:'1px solid', borderColor:'#e4b85d', backgroundColor: 'rgba(129, 97, 35, 0.1)'}}>
+                <img src={require('assets/img/imgs/stamp.png')}></img>
+                <h4 className="" >Law Enforcement applications are currently available for whitelisted members only.
                         Please provide as much detail as possible to the questions below as these positions will be
                         limited and in high demand, and we want to be sure this department provides satisfying roleplay
                         for our community.
                     
                 </h4>
+
+                </div>
               
         </Col>
         
-                <h2 className="title" style={{color:'white'}}>QUESTION #1</h2>
+                <h2 className="" style={{color:'white'}}>QUESTION #1</h2>
                 {/* DISCORD */}
                 <div>
                     <Input type='field' name='text' id='discordId' placeholder='Discord ID Name#1234' required/>
@@ -87,7 +89,7 @@ function Allowlist() {
         
         {/* SECOND PART */}
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
-                <h2 className="title" style={{color:'white'}}>QUESTION #2</h2>
+                <h2 className="" style={{color:'white'}}>QUESTION #2</h2>
                 <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
                 
                 <div>
@@ -128,7 +130,9 @@ function Allowlist() {
                     </div>
                     <div>
                         <FormGroup>
-                            <Button>Submit</Button>
+                            <Button>Submit
+                            <img src={require('assets/img/imgs/wheel.svg')}></img>
+                            </Button>
                         </FormGroup>
                     </div>
                 

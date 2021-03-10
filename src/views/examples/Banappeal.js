@@ -46,7 +46,7 @@ function Banappeal() {
         <div className="section" style={{backgroundImage:`url(${BackgroundImage})`}}>
         <Container>
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
-                <h2 className="title" style={{color:'white'}}>APPEAL BAN</h2>
+                <h2 className="" style={{color:'white'}}>APPEAL BAN</h2>
 
                 <div>
                 <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
@@ -56,12 +56,12 @@ function Banappeal() {
 
 
                 
-                <h4 className="description">If you have been banned, you can appeal to get your ban lifted below, please be patient
+                <h4 className="" style={{color:'white'}}>If you have been banned, you can appeal to get your ban lifted below, please be patient
                 this
                 process can take a little while.</h4>
                
         </Col>
-        <h2 className="description">QUESTION #1.</h2>
+        <h2 className="" style={{color:'white'}}>QUESTION #1.</h2>
        
             
                 {/* discord id */}
@@ -84,7 +84,7 @@ function Banappeal() {
             
         {/* SECOND PART */}
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
-                <h2 className="title" style={{color:'white'}}>QUESTION #2</h2>
+                <h2 className="" style={{color:'white'}}>QUESTION #2</h2>
                
                     <div>
                         <Label for='brokenRule'>Why you feel you should be unbanned</Label>
@@ -93,7 +93,9 @@ function Banappeal() {
 
                     
                         <FormGroup>
-                            <Button>Submit</Button>
+                            <Button>Submit
+                            <img src={require('assets/img/imgs/wheel.svg')}></img>
+                            </Button>
                         </FormGroup>
                     
                 

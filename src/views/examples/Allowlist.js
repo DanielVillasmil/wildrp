@@ -55,6 +55,7 @@ function Allowlist() {
                 </div>
                 
                 <div style={{padding:'10px', color:"white", border:'1px solid', borderColor:'#e4b85d', backgroundColor: 'rgba(129, 97, 35, 0.1)'}}>
+                <img src={require('assets/img/imgs/stamp.png')}></img>
                     <h4>We are currently accepting new whitelist applications, fill out our form with as
                         much detail as possible to have the best chance at being accepted. To be eligible for whitelist,
                         you <b>MUST</b> be a member of our community <b><a style={{color:'#e4b85d', textDecoration:'none'}} href="https://discord.gg/wildrp">Discord</a></b>,
@@ -88,7 +89,7 @@ function Allowlist() {
         
                 {/* SECOND PART */}
         <Col className="ml-auto mr-auto " md="12" style={{color:'white',backgroundColor:'rgba(129, 97, 35, 0.1)', border:'1px solid', borderColor:'#e4b85d'}}>
-
+                <img src={require('assets/img/imgs/stamp.png')}></img>
                 <h4 className=""><b>WildRP has a set standard of roleplay that we expect from our whitelisted members.</b></h4>
                 <p>Please submit some sort of media that showcases your roleplaying ability. Here are a few examples:</p>
                     <p>- Voice Acting Reel</p>
@@ -105,6 +106,7 @@ function Allowlist() {
                     <h2 className="" style={{color:'white'}}>CHARACTER BACKGROUND</h2>
                     
                     <div style={{color:'white', backgroundColor:'rgba(129, 97, 35, 0.1)', border:'1px solid', borderColor:'#e4b85d'}}>
+                    <img src={require('assets/img/imgs/stamp.png')}></img>
                         <h4 className="">If your character background exceeds 100 words, it may be denied.</h4>
                         <p><b>Words:</b> <span id='wordCount'>0</span></p>
                     </div>
@@ -146,7 +148,11 @@ function Allowlist() {
                     </div>
                     <div>
                         <FormGroup>
-                            <Button>Submit</Button>
+                            <Button>Submit
+
+                            <img src={require('assets/img/imgs/wheel.svg')}></img>
+                            </Button>
+
                         </FormGroup>
                     </div>
  

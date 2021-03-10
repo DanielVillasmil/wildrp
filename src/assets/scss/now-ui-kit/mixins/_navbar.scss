@@ -92,33 +92,33 @@
 
     }
 
-    // .bar1,
-    // .bar2,
-    // .bar3 {
-    //   outline: 1px solid transparent;
-    // }
-    // .bar1 {
-    //   top: 0px;
-    //   @include bar-animation($topbar-back);
-    // }
-    // .bar2 {
-    //   opacity: 1;
-    // }
-    // .bar3 {
-    //   bottom: 0px;
-    //   @include bar-animation($bottombar-back);
-    // }
-    // .toggled .bar1 {
-    //   top: 6px;
-    //   @include bar-animation($topbar-x);
-    // }
-    // .toggled .bar2 {
-    //   opacity: 0;
-    // }
-    // .toggled .bar3 {
-    //   bottom: 6px;
-    //   @include bar-animation($bottombar-x);
-    // }
+    .bar1,
+    .bar2,
+    .bar3 {
+      outline: 1px solid transparent;
+    }
+    .bar1 {
+      top: 0px;
+      @include bar-animation($topbar-back);
+    }
+    .bar2 {
+      opacity: 1;
+    }
+    .bar3 {
+      bottom: 0px;
+      @include bar-animation($bottombar-back);
+    }
+    .toggled .bar1 {
+      top: 6px;
+      @include bar-animation($topbar-x);
+    }
+    .toggled .bar2 {
+      opacity: 0;
+    }
+    .toggled .bar3 {
+      bottom: 6px;
+      @include bar-animation($bottombar-x);
+    }
 
   .top-bar {
     transform: rotate(0);
@@ -154,24 +154,24 @@
 
 
 
-    //
-    // @include topbar-x-rotation();
-    // @include topbar-back-rotation();
-    // @include bottombar-x-rotation();
-    // @include bottombar-back-rotation();
-    //
-    // @-webkit-keyframes fadeIn {
-    //   0% {opacity: 0;}
-    //   100% {opacity: 1;}
-    // }
-    // @-moz-keyframes fadeIn {
-    //   0% {opacity: 0;}
-    //   100% {opacity: 1;}
-    // }
-    // @keyframes fadeIn {
-    //   0% {opacity: 0;}
-    //   100% {opacity: 1;}
-    // }
+    
+    @include topbar-x-rotation();
+    @include topbar-back-rotation();
+    @include bottombar-x-rotation();
+    @include bottombar-back-rotation();
+    
+    @-webkit-keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+    }
+    @-moz-keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+    }
+    @keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+    }
 }
 
 @mixin navbar-collapse() {

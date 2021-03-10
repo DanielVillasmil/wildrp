@@ -46,7 +46,7 @@ function Staffapp() {
         <div className="section" style={{color:'white', backgroundImage:`url(${BackgroundImage})`}}>
         <Container>
         <Col className="ml-auto mr-auto " md="12" style={{}}>
-                <h2 className="title">STAFF APPLICATION</h2>
+                <h2 className="">STAFF APPLICATION</h2>
 
                 <div>
                 <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
@@ -56,7 +56,7 @@ function Staffapp() {
 
 
                
-                <h4 className="description" style={{color:'white'}}>The Staff team at WildRP has learned that running a brand new style of total game modification roleplay community 
+                <h4 className="" style={{color:'white'}}>The Staff team at WildRP has learned that running a brand new style of total game modification roleplay community 
                         is difficult and challenging work. The team often requires more help then we have available, and may be looking for 
                         new team members to assist the community. Support Staff are the frontline of WildRP and everything we do starts with 
                         them. Support Staff must be able to adhere to the following criteria;
@@ -82,7 +82,7 @@ function Staffapp() {
                
         </Col>
        
-                <h2 className="description">QUESTION #1.</h2>
+                <h2 className="">QUESTION #1.</h2>
             
                 {/* discord id */}
                 <div>
@@ -96,7 +96,7 @@ function Staffapp() {
             
         {/* SECOND PART */}
         <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
-                <h2 className="title" style={{color:'white'}}>QUESTION #2</h2>
+                <h2 className="" style={{color:'white'}}>QUESTION #2</h2>
                     <Col className="ml-auto mr-auto " md="12" style={{color:'white'}}>
                 {/* <div style={{backgroundImage:`url(${AlertImage})`}}> */}
                     <div>
@@ -136,7 +136,9 @@ function Staffapp() {
                  <div><p>By clicking on the form submission button you are hereby giving WildRP's staff team the consent to utilize any data contained within the form for the express purposes of WildRP community membership administration functions.</p>
                     </div>   
                         <FormGroup>
-                            <Button>Submit</Button>
+                            <Button>Submit
+                            <img src={require('assets/img/imgs/wheel.svg')}></img>
+                            </Button>
                         </FormGroup>
                     
                 {/* </div> */}

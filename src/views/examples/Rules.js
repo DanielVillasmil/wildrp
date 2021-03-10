@@ -34,14 +34,14 @@ function Rules() {
   return (
     <>
       <IndexNavbar />
-      <div className="wrapper">
+      <div className="wrapper" >
         {/* <LandingPageHeader /> */}
         <div className="main" >
         <div className="section" style={{backgroundImage:`url(${BackgroundImage})`}}>
-            <Container>
+            <Container >
             <Row className="" style={{color:'white'}}>
               <Col className="ml-auto mr-auto " md="12">
-                <h2 className="title" >SERVER RULES</h2>
+                <h2 className="" >SERVER RULES</h2>
 
                 <div>
                 <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
@@ -52,8 +52,8 @@ function Rules() {
 
               </Col>
               <Col className="ml-auto mr-auto" md="12">
-                <h2 className="title">BASIC TERMS OF SERVICE</h2>
-                <h5 className="description">
+                <h2 className="">BASIC TERMS OF SERVICE</h2>
+                <h5 className="">
                 <p>Personal insults and/or verbal attacks outside of specific roleplay situations and all forms
                		 of harassment are prohibited and will result in a ban.</p>
                 <p>Racism, Homophobia, Transphobia, hate speech, and all forms of targeted derogatory or abusive language will 
@@ -66,8 +66,8 @@ function Rules() {
                 </h5>
               </Col>
               <Col className="ml-auto mr-auto" md="12">
-                <h2 className="title">BASIC COMMUNITY POLICIES</h2>
-                <h5 className="description">
+                <h2 className="">BASIC COMMUNITY POLICIES</h2>
+                <h5 className="">
                 <p>We are an English speaking server, all communication must be primarily conducted via English. 
 				Fluency in English is required to join the community.</p>
                 
@@ -115,8 +115,8 @@ function Rules() {
               <Container>
               <Row className="" style={{color:'white'}}>
               <Col className="ml-auto mr-auto" md="12" >
-                <h2 className="title" >STAFF COMMUNICATION POLICY</h2>
-                <h5 className="description">
+                <h2 className="" >STAFF COMMUNICATION POLICY</h2>
+                <h5 className="">
                 
                 <p>The Revive/New Character Policy covers new characters and all events & actions leading up to a character being incapacitated, losing 
 				conciousness, or dying.</p>
@@ -141,8 +141,8 @@ function Rules() {
               
               
               <Col className="ml-auto mr-auto" md="12" sty>
-                <h2 className="title">VALUE LIFE POLICY</h2>
-                <h5 className="description">
+                <h2 className="">VALUE LIFE POLICY</h2>
+                <h5 className="">
                 <p>At all times on the server, you must value your life and the lives of others. Characters should act according to their personality and 
 				mannerisms when faced with a threat to their life, but must always attempt to preserve their own life and limit the damage done to 
 				other's lives.</p>
@@ -154,8 +154,8 @@ function Rules() {
                 </h5>
               </Col>
               <Col className="ml-auto mr-auto" md="12">
-                <h2 className="title">FORCED DEATH POLICY</h2>
-                <h5 className="description">
+                <h2 className="">FORCED DEATH POLICY</h2>
+                <h5 className="">
                 <p>Players should not force other players to permanently kill their characters. Players must always give three different types of options 
 				in these scenarios unless they have specific pre-approval from staff or the people they are interacting with. The options are as follows;</p>
 
@@ -167,8 +167,8 @@ function Rules() {
                 </h5>
               </Col>
               <Col className="ml-auto mr-auto" md="12">
-                <h2 className="title">HOGTIED/ROPED POLICY</h2>
-                <h5 className="description">
+                <h2 className="">HOGTIED/ROPED POLICY</h2>
+                <h5 className="">
                 <p>Players should utilize common sense when hogtied, if they aren’t positive escaping makes sense, then they should not attempt escape. 
 				Escaping without a blade or rock should take longer than with. Players should generally not break out of hogties unless;</p>
 				<p>Your captor is outside of shouting voice range (32f). </p> 
@@ -178,16 +178,16 @@ function Rules() {
                 </h5>
               </Col>
               <Col className="ml-auto mr-auto" md="12">
-                <h2 className="title">NO OUT OF CHARACTER</h2>
-                <h5 className="description">
+                <h2 className="">NO OUT OF CHARACTER</h2>
+                <h5 className="">
                 <p>Roleplaying is the main purpose of this server. You must stay in character at all times while on the server. OOC chat has been disabled 
 				on the server and should be directed towards discord. Ignoring roleplay interactions and not interacting with others on the server is 
 				considered breaking character. Failure to stay in character is prohibited and may result in a ban.</p>
                 </h5>
               </Col>
               <Col className="ml-auto mr-auto" md="12">
-                <h2 className="title">NO META-GAMING</h2>
-                <h5 className="description">
+                <h2 className="">NO META-GAMING</h2>
+                <h5 className="">
                 <p>Meta-Gaming is using external factors, information, or knowledge your character would not be able to obtain 
 				through normal roleplay means. This includes, but is not limited to, information gained through live 
 				streams, videos, and out of character text channels both on Discord and in-game. 
@@ -196,8 +196,8 @@ function Rules() {
                 </h5>
               </Col>
               <Col className="ml-auto mr-auto" md="12">
-                <h2 className="title">NO POWERGAMING</h2>
-                <h5 className="description">
+                <h2 className="">NO POWERGAMING</h2>
+                <h5 className="">
                 <p>Power-Gaming is attempting to always maximize the ability that you will "Win" all roleplay and gameplay 
 				scenarios at the cost of other's fun and ability to conduct good roleplay or gameplay. Consistent power 
 				gaming is prohibited and may result in a ban.</p>
@@ -205,15 +205,15 @@ function Rules() {
                 </h5>
               </Col>
               <Col className="ml-auto mr-auto" md="12">
-                <h2 className="title">NO RANDOM DEATHMATCH</h2>
-                <h5 className="description">
+                <h2 className="">NO RANDOM DEATHMATCH</h2>
+                <h5 className="">
                 <p>Random Deathmatch is the act of intentionally harming another character without any attempted 
 				form of roleplay interaction. RDM is prohibited and will result in a ban. </p>	
                 </h5>
               </Col>
               <Col className="ml-auto mr-auto" md="12">
-                <h2 className="title">CRIMINAL GROUP SIZE LIMIT</h2>
-                <h5 className="description">
+                <h2 className="">CRIMINAL GROUP SIZE LIMIT</h2>
+                <h5 className="">
                 <p>WildRP will allow for a maximum of 6 armed group members in any group of players with criminal intent or 
 		criminal history to participate in an event at one time. Criminals may briefly meet in groups larger than 6, 
 		but should not wander the map or participate in firefights/melees in groups larger than 6 without staff approval. 
@@ -221,8 +221,8 @@ function Rules() {
                 </h5>
               </Col>
               <Col className="ml-auto mr-auto " md="12">
-                <h2 className="title">BANK ROBBERY RULES</h2>
-                <h5 className="description">
+                <h2 className="">BANK ROBBERY RULES</h2>
+                <h5 className="">
                 <p>The following rules are designed to ensure bank robberies are a mechanic which encourages good roleplay 
 		while providing an intense, yet mutually enjoyable event for all parties involved.</p>
 
@@ -273,8 +273,8 @@ function Rules() {
                 </h5>
               </Col>
               <Col className="ml-auto mr-auto " md="12">
-                <h2 className="title">IMPERSONATION POLICY</h2>
-                <h5 className="description">
+                <h2 className="">IMPERSONATION POLICY</h2>
+                <h5 className="">
                 <p>Impersonation of government officials and Law Enforcement Officers is allowed. Falsification of 
 		ID documents or Law Enforcement badges is not. If a player asks for an impersonator for "official 
 		identification", then impersonation should not occur or cease happening. Failure to adhere to this rule will 
@@ -282,8 +282,8 @@ function Rules() {
                 </h5>
               </Col>
               <Col className="ml-auto mr-auto " md="12">
-                <h2 className="title">IN-GAME LEAEDERSHIP POLICY</h2>
-                <h5 className="description">
+                <h2 className="">IN-GAME LEAEDERSHIP POLICY</h2>
+                <h5 className="">
                 <p>Any player that is a designated leader within any in-game entity (e.g. a criminal gang, a law enforcement 
 		department, a civilian business) will have higher expectations in communication, gameplay, and rules adherence 
 		placed upon them. Staff reserves the right to impose these expectations and issue OOC guidance to 
@@ -291,16 +291,16 @@ function Rules() {
                 </h5>
               </Col> 
               <Col className="ml-auto mr-auto " md="12">
-                <h2 className="title">LAW PROVOCATION POLICY</h2>
-                <h5 className="description">
+                <h2 className="">LAW PROVOCATION POLICY</h2>
+                <h5 className="">
                 <p>Purposefully provoking LEOs or drawing attention to yourself from Law Enforcement solely with the 
 		intention of starting a violent interaction with Law Enforcement is prohibited. Combat based interaction 
 		with LEOs should occur naturally via roleplay. Failure to adhere to this rule will result in a ban.</p>
                 </h5>
               </Col> 
               <Col className="ml-auto mr-auto " md="12">
-                <h2 className="title">SISKA PRISON POLICY</h2>
-                <h5 className="description">
+                <h2 className="">SISKA PRISON POLICY</h2>
+                <h5 className="">
                 <p>Visitation to Sisika Prison is allowed but most be roleplayed as visiting a "maximum security facility." 
 			Guests and prisoners should obey Law orders whilst in the prison. Jail breaks and escapes from Sisika 
 			are prohibited without staff approval. Approval may be received via direct messaging the WildRP Support Bot 
@@ -309,8 +309,8 @@ function Rules() {
                 </h5>
               </Col>
               <Col className="ml-auto mr-auto " md="12">
-                <h2 className="title">TRAIN DRIVER NPC</h2>
-                <h5 className="description">
+                <h2 className="">TRAIN DRIVER NPC</h2>
+                <h5 className="">
                 <p>Do not kill the train driver NPC! Only players with the Train Conductor role may drive the train and throw 
 			the NPC driver off the wheel.</p>
                 </h5>
