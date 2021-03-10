@@ -40,12 +40,12 @@ function Index() {
   });
   return (
     <>
-    <IndexNavbar />
+    {/* <IndexNavbar /> */}
+        
+        <IndexHeader />
       <div className="wrapper" >
         <div className="main" >
         <div style={{backgroundImage:`url(${BackgroundImage})`}}>
-        
-        {/* <IndexHeader /> */}
           {/* <Images /> */}
           {/* <BasicElements /> */}
           {/* <Navbars /> */}
