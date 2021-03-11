@@ -31,12 +31,12 @@ import Reportplayer from "views/examples/Reportplayer.js";
 import Privacy from "views/examples/Privacy.js";
 import Bugreport from "views/examples/Bugreport.js";
 import Rules from 'views/examples/Rules.js'
-import Banappeal from "views/examples/Banappeal";
-import Staffapp from "views/examples/Staffapp";
-import Devapp from "views/examples/Devapp";
-import Lawapp from "views/examples/Lawapp";
-import Streamapp from "views/examples/Streamapp";
-import Branding from "views/examples/Branding";
+import Banappeal from "views/examples/Banappeal.js";
+import Staffapp from "views/examples/Staffapp.js";
+import Devapp from "views/examples/Devapp.js";
+import Lawapp from "views/examples/Lawapp.js";
+import Streamapp from "views/examples/Streamapp.js";
+import Branding from "views/examples/Branding.js";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -87,8 +87,8 @@ ReactDOM.render(
           path="/branding"
           render={(props) => <Branding {...props} />}
         />
-        <Redirect to="/index" />
-        <Redirect from="/" to="/index" />
+        {/* <Redirect to="/index" /> */}
+        {/* <Redirect from="/" to="/index" /> */}
       </Switch>
     </Switch>
   </BrowserRouter>,

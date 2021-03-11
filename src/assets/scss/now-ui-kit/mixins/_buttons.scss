@@ -207,7 +207,7 @@
    padding: $padding-vertical $padding-horizontal;
 
    &[class*="btn-outline-"] {
-    padding: $padding-vertical - 1 $padding-horizontal - 1;
+    padding: auto;
    }
 
 }
