@@ -1,16 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 // reactstrap components
 import {
   Container,
-  Row,
-  Col,
-  Carousel,
-  CarouselItem,
-  CarouselIndicators,
-  Button
-} from "reactstrap";
+  Row} from "reactstrap";
 
 // core components
 

@@ -4,26 +4,14 @@ import React from "react";
 import {
   Button,
   Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
   Container,
-  Row,
-  Col,
-  Form,
-  FormText,
-  Label,
-  FormGroup,
-  FormControl
-} from "reactstrap";
+  Col} from "reactstrap";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 // import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 import BackgroundImage from '../../assets/img/imgs/cover.jpg'
-import AlertImage from '../../assets/img/imgs/stamp.png'
-import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 
 function Streamapp() {
   React.useEffect(() => {

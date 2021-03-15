@@ -2,13 +2,6 @@ import React from "react";
 
 // reactstrap components
 import {
-  Button,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
-  Container,
-  Row,
   Col,
 } from "reactstrap";
 
@@ -17,7 +10,6 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 // import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 import BackgroundImage from '../../assets/img/imgs/cover.jpg'
-import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 
 
 function Privacy() {
