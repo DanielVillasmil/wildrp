@@ -41,6 +41,7 @@ function wordCounter(val){
     
     console.log(val.split(" ").length)
 }
+
   return (
     <>
       <IndexNavbar />
