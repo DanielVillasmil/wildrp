@@ -12,6 +12,7 @@ import Streamapp from "views/examples/Streamapp";
 import Branding from "views/examples/Branding";
 import Reportplayer from "views/examples/Reportplayer";
 import Bugreport from "views/examples/Bugreport";
+import Donate from "views/index-sections/Donate";
 
 function App() {
   return (
@@ -40,6 +41,8 @@ function App() {
             <Route exact path="/streamers" component={Streamapp} />
             
             <Route exact path="/branding" component={Branding} />
+
+            <Route exact path="/donate" component={Donate} />
     
         </Switch>
     </Router>

@@ -16,7 +16,7 @@ return(
   <Container className="text-center" >
           <Row className="justify-content-md-center">
             <div className="col">
-              <a href="https://storage.googleapis.com/wildrp-launcher-downloads/WildRPLauncherSetup.exe" target="_blank">
+              <a href="https://storage.googleapis.com/wildrp-launcher-downloads/WildRPLauncherSetup.exe" target="_blank" rel="noopener noreferrer">
                 <img
                   alt="..."
                   className="img-raised"

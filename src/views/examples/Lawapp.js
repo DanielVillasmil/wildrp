@@ -6,8 +6,7 @@ import {
   Input,
   Container,
   Col,
-  Label,
-  FormGroup} from "reactstrap";
+  Label} from "reactstrap";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
@@ -46,7 +45,7 @@ function Allowlist() {
                 
 
                 <div style={{padding:'10px', color:"white", border:'1px solid', borderColor:'#e4b85d', backgroundColor: 'rgba(129, 97, 35, 0.1)'}}>
-                <img style={{width:'50px', alignItems:'center'}} src={require('assets/img/imgs/stamp.png')}></img>
+                <img style={{width:'50px', alignItems:'center'}} src={require('assets/img/imgs/stamp.png')} alt='stamp'></img>
                 <h4 className="" >Law Enforcement applications are currently available for whitelisted members only.
                         Please provide as much detail as possible to the questions below as these positions will be
                         limited and in high demand, and we want to be sure this department provides satisfying roleplay

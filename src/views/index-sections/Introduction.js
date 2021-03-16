@@ -31,7 +31,7 @@ function Introduction() {
                 size="lg"
                 style={{color:'#e4b85d', fontSize:'20px', marginTop:'110px', marginBottom:'60px', background:'transparent', height:'60px', justifyContent:'center'}}
               >ALLOW-LIST APPLICATIONS
-              <img style={{width:'40px', alignItems:'center'}} src={require('assets/img/imgs/wheel.svg')}></img>
+              <img style={{width:'40px', alignItems:'center'}} src={require('assets/img/imgs/wheel.svg')} alt='wheel'></img>
               </Button>
               </div>
       </div>

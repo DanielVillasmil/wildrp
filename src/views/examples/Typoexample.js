@@ -3,7 +3,13 @@ import React from "react";
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
 
+
+
 // core components
+import IndexNavbar from "components/Navbars/IndexNavbar.js";
+// import LandingPageHeader from "components/Headers/LandingPageHeader.js";
+import DarkFooter from "components/Footers/DarkFooter.js";
+import BackgroundImage from '../../assets/img/imgs/cover.jpg'
 
 function Typography() {
   return (
@@ -143,7 +149,7 @@ function Typography() {
                 <img
                   alt="..."
                   className="rounded-circle"
-                  src={require("assets/img/julie.jpg")}
+                  // src={require("assets/img/julie.jpg")}
                 ></img>
               </Col>
               <Col sm="2">
@@ -151,7 +157,7 @@ function Typography() {
                 <img
                   alt="..."
                   className="rounded img-raised"
-                  src={require("assets/img/julie.jpg")}
+                  // src={require("assets/img/julie.jpg")}
                 ></img>
               </Col>
               <Col sm="2">
@@ -159,7 +165,7 @@ function Typography() {
                 <img
                   alt="..."
                   className="rounded-circle img-raised"
-                  src={require("assets/img/julie.jpg")}
+                  // src={require("assets/img/julie.jpg")}
                 ></img>
               </Col>
             </Row>

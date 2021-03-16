@@ -6,8 +6,7 @@ import {
   Input,
   Container,
   Col,
-  Label,
-  FormGroup} from "reactstrap";
+  Label} from "reactstrap";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
@@ -104,7 +103,7 @@ function Devapp() {
                             target="_blank"
                             style={{color:'#e4b85d', fontSize:'20px', marginTop:'110px', marginBottom:'60px', background:'transparent', height:'60px', justifyContent:'center'}}
                           >Submit
-                            <img style={{width:'40px', alignItems:'center'}} src={require('assets/img/imgs/wheel.svg')}></img>
+                            <img style={{width:'40px', alignItems:'center'}} src={require('assets/img/imgs/wheel.svg')} alt='wheel'></img>
                     </Button>
                     
                 

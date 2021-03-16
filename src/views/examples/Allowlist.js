@@ -35,7 +35,6 @@ function wordCounter(val){
     <>
       <IndexNavbar />
       <div className="wrapper">
-        {/* <LandingPageHeader /> */}
         <div className="main">
         <div className="section" style={{backgroundImage:`url(${BackgroundImage})`}}>
         <Container>
@@ -49,7 +48,7 @@ function wordCounter(val){
                 </div>
                 
                 <div style={{padding:'10px', color:"white", border:'1px solid', borderColor:'#e4b85d', backgroundColor: 'rgba(129, 97, 35, 0.1)'}}>
-                <img style={{width:'50px', alignItems:'center'}} src={require('assets/img/imgs/stamp.png')}></img>
+                <img style={{width:'50px', alignItems:'center'}} src={require('assets/img/imgs/stamp.png')} alt='stamp'></img>
                     <p>We are currently accepting new whitelist applications, fill out our form with as
                         much detail as possible to have the best chance at being accepted. To be eligible for whitelist,
                         you <b>MUST</b> be a member of our community <b><a style={{color:'#e4b85d', textDecoration:'none'}} href="https://discord.gg/wildrp">Discord</a></b>,
@@ -83,7 +82,7 @@ function wordCounter(val){
         
                 {/* SECOND PART */}
         <Col className="ml-auto mr-auto " md="12" style={{color:'white',backgroundColor:'rgba(129, 97, 35, 0.1)', border:'1px solid', borderColor:'#e4b85d'}}>
-                <img style={{width:'50px', alignItems:'center'}} src={require('assets/img/imgs/stamp.png')}></img>
+                <img style={{width:'50px', alignItems:'center'}} src={require('assets/img/imgs/stamp.png')} alt='stamp'></img>
                 <h4>WildRP has a set standard of roleplay that we expect from our whitelisted members.</h4>
                 <p>Please submit some sort of media that showcases your roleplaying ability. Here are a few examples:</p>
                     <p>- Voice Acting Reel</p>
@@ -100,7 +99,7 @@ function wordCounter(val){
                     <h2 className="" style={{color:'white'}}>CHARACTER BACKGROUND</h2>
                     
                     <div style={{color:'white', backgroundColor:'rgba(129, 97, 35, 0.1)', border:'1px solid', borderColor:'#e4b85d'}}>
-                    <img style={{width:'50px', alignItems:'center'}} src={require('assets/img/imgs/stamp.png')}></img>
+                    <img style={{width:'50px', alignItems:'center'}} src={require('assets/img/imgs/stamp.png')} alt='stamp'></img>
                         <p className="">If your character background exceeds 100 words, it may be denied.</p>
                         <p><b>Words:</b> <span id='wordCount'>0</span></p>
                     </div>
@@ -151,7 +150,7 @@ function wordCounter(val){
                             target="_blank"
                             style={{color:'#e4b85d', fontSize:'20px', marginTop:'110px', marginBottom:'60px', background:'transparent', height:'60px', justifyContent:'center'}}
                           >Submit
-                            <img style={{width:'40px', alignItems:'center'}} src={require('assets/img/imgs/wheel.svg')}></img>
+                            <img style={{width:'40px', alignItems:'center'}} src={require('assets/img/imgs/wheel.svg')} alt='wheel'></img>
                     </Button>
 
                         

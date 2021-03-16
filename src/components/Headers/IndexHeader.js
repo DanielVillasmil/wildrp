@@ -97,6 +97,7 @@ function IndexHeader() {
                           <Link to='/branding'>Branding</Link>
 
                           <h4></h4>
+                          <Link to='/typography'>typo</Link>
 
                           <Link to='/privacy'>Privacy policy</Link>
                           <Link to='/rules'>Rules</Link>
