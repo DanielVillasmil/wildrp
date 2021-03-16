@@ -46,7 +46,7 @@ function Allowlist() {
                 
 
                 <div style={{padding:'10px', color:"white", border:'1px solid', borderColor:'#e4b85d', backgroundColor: 'rgba(129, 97, 35, 0.1)'}}>
-                <img src={require('assets/img/imgs/stamp.png')}></img>
+                <img style={{width:'50px', alignItems:'center'}} src={require('assets/img/imgs/stamp.png')}></img>
                 <h4 className="" >Law Enforcement applications are currently available for whitelisted members only.
                         Please provide as much detail as possible to the questions below as these positions will be
                         limited and in high demand, and we want to be sure this department provides satisfying roleplay
@@ -120,11 +120,19 @@ function Allowlist() {
                     <div><p>By clicking on the form submission button you are hereby giving WildRP's staff team the consent to utilize any data contained within the form for the express purposes of WildRP community membership administration functions.</p>
                     </div>
                     <div>
-                        <FormGroup>
-                            <Button>Submit
-                            <img src={require('assets/img/imgs/wheel.svg')}></img>
+                        
+                            <Button
+                            className="btn-round"
+                            // color="info"
+                            href="https://discord.gg/kagKhnW"
+                            outline
+                            size="lg"
+                            target="_blank"
+                            style={{color:'#e4b85d', fontSize:'20px', marginTop:'110px', marginBottom:'60px', background:'transparent', height:'60px', justifyContent:'center'}}
+                          >Submit
+                            <img style={{width:'40px', alignItems:'center'}} src={require('assets/img/imgs/wheel.svg')}></img>
                             </Button>
-                        </FormGroup>
+                        
                     </div>
                 
         </Col>

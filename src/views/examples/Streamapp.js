@@ -70,6 +70,8 @@ function Streamapp() {
                 style={{color:'#e4b85d', marginTop:'70px', fontSize:'25px'}}
               >
                 OPT-IN
+                <img style={{width:'40px', alignItems:'center'}} src={require('assets/img/imgs/wheel.svg')}></img>
+
               </Button>
             
                     </div>

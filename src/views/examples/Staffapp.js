@@ -125,11 +125,17 @@ function Staffapp() {
 
                  <div><p>By clicking on the form submission button you are hereby giving WildRP's staff team the consent to utilize any data contained within the form for the express purposes of WildRP community membership administration functions.</p>
                     </div>   
-                        <FormGroup>
-                            <Button>Submit
-                            <img src={require('assets/img/imgs/wheel.svg')}></img>
-                            </Button>
-                        </FormGroup>
+                    <Button
+                            className="btn-round"
+                            // color="info"
+                            href="https://discord.gg/kagKhnW"
+                            outline
+                            size="lg"
+                            target="_blank"
+                            style={{color:'#e4b85d', fontSize:'20px', marginTop:'110px', marginBottom:'60px', background:'transparent', height:'60px', justifyContent:'center'}}
+                          >Submit
+                            <img style={{width:'40px', alignItems:'center'}} src={require('assets/img/imgs/wheel.svg')}></img>
+                    </Button>
                     
                 {/* </div> */}
         </Col>
