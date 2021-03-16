@@ -81,57 +81,35 @@ function IndexHeader() {
                             
                           <h4></h4>
                           
-                          <Link to='/bugs'>Allowlist</Link>
+                          <Link to='/bugs'>Bug report</Link>
+                          <Link to='/report'>Report player</Link>
+                          <Link to='/appeal'>Ban Appeal</Link>
                           
-                          <Link to='/bugs'>Allowlist</Link>
-                          
-                          <li><a href="Banappeal.js"
-                            // onClick={(e) => e.preventDefault()}
-                            style={{textDecoration:'none'}}
-                          >BAN APPEAL</a></li>
-                            
                           <h4></h4>
-                         
+                          
                           <Link to='/allowlist'>Allowlist</Link>
-                          
-                          <li><a href="Staffapp.js"
-                            // onClick={(e) => e.preventDefault()}
-                            style={{textDecoration:'none'}}
-                          >STAFF</a></li>
-                         
-                          <li><a href="Devapp.js"
-                            // onClick={(e) => e.preventDefault()}
-                            style={{textDecoration:'none'}}
-                          >DEVELOPER</a></li>
-                          
-                          <li><a href="Lawapp.js"
-                            // onClick={(e) => e.preventDefault()}
-                            style={{textDecoration:'none'}}
-                          >LAW ENFORCEMENT</a></li>
+                          <Link to='/staff'>Staff</Link>
+                          <Link to='/developer'>Developer</Link>
+                          <Link to='/law'>Law Enforcement</Link>
 
                           <h4></h4>
-                          
-                          <li><a href="Streamapp"
-                            // onClick={(e) => e.preventDefault()}
-                            style={{textDecoration:'none'}}
-                          >STREAMERS</a></li>
-                         
-                          <li><a href="Branding.js"
-                            // onClick={(e) => e.preventDefault()}
-                            style={{textDecoration:'none'}}
-                          >BRANDING</a></li>
-                           
+
+                          <Link to='/streamers'>Streamers</Link>
+                          <Link to='/branding'>Streamers</Link>
+
                           <h4></h4>
-                         
-                          <li><a href="Privacy.js"                            
-                          // onClick={(e) => e.preventDefault()}
-                          style={{textDecoration:'none'}}
-                          >PRIVACY POLICY</a></li>
+
+                          <Link to='/privacy'>Privacy policy</Link>
+                          <Link to='/rules'>Rules</Link>
+                            
+                      
+
+
+
+
+
+
                           
-                          <li><a href="Rules.js"
-                            // onClick={(e) => e.preventDefault()}
-                            style={{textDecoration:'none'}}
-                          >RULES</a></li>
                         </DropdownMenu>
                       </UncontrolledDropdown>
                     </Nav>

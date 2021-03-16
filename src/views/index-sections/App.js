@@ -10,6 +10,8 @@ import Devapp from "views/examples/Devapp";
 import Lawapp from "views/examples/Lawapp";
 import Streamapp from "views/examples/Streamapp";
 import Branding from "views/examples/Branding";
+import Reportplayer from "views/examples/Reportplayer";
+import Bugreport from "views/examples/Bugreport";
 
 function App() {
   return (
@@ -23,7 +25,9 @@ function App() {
 
             <Route exact path="/rules" component={Rules} />
             
-            <Route exact path="/report" component={Allowlist} />
+            <Route exact path="/report" component={Reportplayer} />
+
+            <Route exact path="/bugs" component={Bugreport} />
            
             <Route exact path="/appeal" component={Banappeal} />
             
