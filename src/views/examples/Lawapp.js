@@ -40,7 +40,7 @@ function Allowlist() {
 
                 <div>
                 <p>
-                  <a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                  <a href='/index' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
                 <span style={{color:'#e4b85d'}}>LAW APPLICATION</span></p>
                 </div>
                 

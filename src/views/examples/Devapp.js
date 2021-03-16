@@ -39,7 +39,7 @@ function Devapp() {
                 <h2 className="">DEVELOPER APPLICATION</h2>
 
                 <div>
-                <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                <p><a href='/index' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
                 <span style={{color:'#e4b85d'}}>DEVELOPER APPLICATION</span></p>
                 </div>
 

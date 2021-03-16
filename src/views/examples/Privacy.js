@@ -37,7 +37,7 @@ function Privacy() {
                 <h2 className="" >PRIVACY POLICY</h2>
 
                 <div>
-                <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                <p><a href='/index' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
                 <span style={{color:'#e4b85d'}}>PRIVACY POLICY</span></p>
                 </div>
                 

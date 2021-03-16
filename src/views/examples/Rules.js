@@ -38,7 +38,7 @@ function Rules() {
                 <h2 className="" >SERVER RULES</h2>
 
                 <div>
-                <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                <p><a href='/index' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
                 <span style={{color:'#e4b85d'}}>SERVER RULES</span></p>
                 </div>
                 

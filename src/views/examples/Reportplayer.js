@@ -40,7 +40,7 @@ function Reportplayer() {
                 <h2 className="" style={{color:'white'}}>REPORT PLAYER</h2>
 
                 <div>
-                <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                <p><a href='/index' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
                 <span style={{color:'#e4b85d'}}>REPORT PLAYER</span></p>
                 </div>
                 

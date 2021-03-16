@@ -35,7 +35,7 @@ function Branding() {
                 <h2 className="" style={{color:'white'}}>BRANDING</h2>
 
                 <div>
-                <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                <p><a href='/index' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
                 <span style={{color:'#e4b85d'}}>BRANDING</span></p>
                 </div>
 

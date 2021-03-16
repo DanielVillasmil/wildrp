@@ -6,8 +6,7 @@ import {
   Input,
   Container,
   Col,
-  Label,
-  FormGroup} from "reactstrap";
+  Label} from "reactstrap";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
@@ -45,7 +44,7 @@ function wordCounter(val){
                
                 {/* Breadcrumb */}
                 <div>
-                <p><a href='index.js' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                <p><a href='/index' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
                 <span style={{color:'#e4b85d'}}>ALLOWLIST APPLICATION</span></p>
                 </div>
                 

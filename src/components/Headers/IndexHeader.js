@@ -74,10 +74,9 @@ function IndexHeader() {
                         
                         <DropdownMenu style={{backgroundColor:'#000000', color:'white', width:'200px', padding:'11px'}}>
                           
-                          <li><a href="https://storage.googleapis.com/wildrp-launcher-downloads/WildRPLauncherSetup.exe"
-                            // onClick={(e) => e.preventDefault()}
+                          <Link to='https://storage.googleapis.com/wildrp-launcher-downloads/WildRPLauncherSetup.exe'
                             style={{color:'#e4b85d', textDecoration:'none'}}
-                          >DOWNLOAD LAUNCHER</a></li>
+                          >DOWNLOAD LAUNCHER</Link>
                             
                           <h4></h4>
                           
@@ -95,12 +94,14 @@ function IndexHeader() {
                           <h4></h4>
 
                           <Link to='/streamers'>Streamers</Link>
-                          <Link to='/branding'>Streamers</Link>
+                          <Link to='/branding'>Branding</Link>
 
                           <h4></h4>
 
                           <Link to='/privacy'>Privacy policy</Link>
                           <Link to='/rules'>Rules</Link>
+                          <Link to='/Donate'>Donate</Link>
+                          <Link to='/Merch'>Merchendise</Link>
                             
                         </DropdownMenu>
                       </UncontrolledDropdown>
@@ -140,7 +141,7 @@ function IndexHeader() {
                   target="_blank"
                   id="instagram-tooltip"
                 >
-                  <i className="fab fa-discord" style={{fontSize:"25px"}}></i>
+                  a<i className="fab fa-discord" style={{fontSize:"25px"}}></i>
                   
                 </NavLink>
                 <UncontrolledTooltip target="#instagram-tooltip">

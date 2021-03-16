@@ -39,7 +39,7 @@ function Streamapp() {
                 <div>
                 <h2 className="" style={{color:'white'}}>HIGHLIGHTED<br></br>STREAMER</h2>
 
-                <p><a href='#' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
+                <p><a href='/index' style={{textDecoration:'none', color:'grey'}}>HOME / </a>
                 <span style={{color:'#e4b85d'}}>STREAMER HIGHLIGHT</span></p>
                 </div>
                
