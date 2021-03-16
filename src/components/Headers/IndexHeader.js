@@ -16,6 +16,7 @@ import { Collapse,
   UncontrolledTooltip } from "reactstrap";
   import { Link } from "react-router-dom";
 import Dropdown from "reactstrap/lib/Dropdown";
+import Button from "reactstrap/lib/Button";
 // core components
 
 function IndexHeader() {
@@ -110,33 +111,41 @@ function IndexHeader() {
             </Collapse>
           
             <Nav navbar>
+
               <NavItem>
+                  
                 <NavLink
                   href="https://www.youtube.com/channel/UCAfpEZ4Ffb8i1sqYHDLijXA"
                   target="_blank"
                   id="twitter-tooltip"
                 >
-                  <i className="fab fa-youtube-square" style={{fontSize:"25px"}}></i>
+                  a<i className="fab fa-youtube-square" style={{fontSize:"25px"}}></i>
                   
                 </NavLink>
                 <UncontrolledTooltip target="#twitter-tooltip">
                   Like & Subscribe on Youtube
                 </UncontrolledTooltip>
               </NavItem>
+              
+              
               <NavItem>
                 <NavLink
                   href="https://twitter.com/WildRPofficial"
                   target="_blank"
                   id="facebook-tooltip" 
                 >
-                  <i className="fab fa-twitter" style={{fontSize:"25px"}}></i>
+                  a<i className="fab fa-twitter" style={{fontSize:"25px"}}></i>
                   
                 </NavLink>
+               
                 <UncontrolledTooltip target="#facebook-tooltip">
                   Follow us on Twitter
+               
                 </UncontrolledTooltip>
               </NavItem>
+              
               <NavItem>
+             
                 <NavLink
                   href="https://discord.gg/kagKhnW"
                   target="_blank"
@@ -145,9 +154,12 @@ function IndexHeader() {
                   a<i className="fab fa-discord" style={{fontSize:"25px"}}></i>
                   
                 </NavLink>
+                
+                
                 <UncontrolledTooltip target="#instagram-tooltip">
                   Join us in Discord
                 </UncontrolledTooltip>
+              
               </NavItem>
               
             </Nav>
