@@ -82,7 +82,7 @@ function Bugreport() {
                     <Button
                             className="btn-round"
                             // color="info"
-                            href="https://discord.gg/kagKhnW"
+                            
                             outline
                             size="lg"
                             target="_blank"
