@@ -50,13 +50,13 @@ function wordCounter(val){
                 </div>
                 
                 <div style={{padding:'10px', color:"white", border:'1px solid', borderColor:'#e4b85d', backgroundColor: 'rgba(129, 97, 35, 0.1)'}}>
-                <img src={require('assets/img/imgs/stamp.png')}></img>
-                    <h4>We are currently accepting new whitelist applications, fill out our form with as
+                <img style={{width:'50px', alignItems:'center'}} src={require('assets/img/imgs/stamp.png')}></img>
+                    <p>We are currently accepting new whitelist applications, fill out our form with as
                         much detail as possible to have the best chance at being accepted. To be eligible for whitelist,
                         you <b>MUST</b> be a member of our community <b><a style={{color:'#e4b85d', textDecoration:'none'}} href="https://discord.gg/wildrp">Discord</a></b>,
                         have microphone suitable for voice-based roleplay, and be 18+
                     
-                    </h4>
+                    </p>
                 </div>
                 
                 <h2 className="" style={{color:'white'}}>GENERAL QUESTIONS</h2>
@@ -84,8 +84,8 @@ function wordCounter(val){
         
                 {/* SECOND PART */}
         <Col className="ml-auto mr-auto " md="12" style={{color:'white',backgroundColor:'rgba(129, 97, 35, 0.1)', border:'1px solid', borderColor:'#e4b85d'}}>
-                <img src={require('assets/img/imgs/stamp.png')}></img>
-                <h4 className=""><b>WildRP has a set standard of roleplay that we expect from our whitelisted members.</b></h4>
+                <img style={{width:'50px', alignItems:'center'}} src={require('assets/img/imgs/stamp.png')}></img>
+                <h4>WildRP has a set standard of roleplay that we expect from our whitelisted members.</h4>
                 <p>Please submit some sort of media that showcases your roleplaying ability. Here are a few examples:</p>
                     <p>- Voice Acting Reel</p>
                     <p>- Roleplaying Compilation Video</p>
@@ -101,8 +101,8 @@ function wordCounter(val){
                     <h2 className="" style={{color:'white'}}>CHARACTER BACKGROUND</h2>
                     
                     <div style={{color:'white', backgroundColor:'rgba(129, 97, 35, 0.1)', border:'1px solid', borderColor:'#e4b85d'}}>
-                    <img src={require('assets/img/imgs/stamp.png')}></img>
-                        <h4 className="">If your character background exceeds 100 words, it may be denied.</h4>
+                    <img style={{width:'50px', alignItems:'center'}} src={require('assets/img/imgs/stamp.png')}></img>
+                        <p className="">If your character background exceeds 100 words, it may be denied.</p>
                         <p><b>Words:</b> <span id='wordCount'>0</span></p>
                     </div>
                         
@@ -110,28 +110,28 @@ function wordCounter(val){
                         <Input type='field' name='text' id='charBackground' onChange={(e) => wordCounter(e.target.value)} required />
                 
                     <h2 className="" style={{color:'white'}}>OTHER QUESTIONS</h2>
-                    <h4 className="">How did you hear about WildRP (Twitter, Twitch, Google, Facebook, Referral, etc.)</h4>
+                    <p className="">How did you hear about WildRP (Twitter, Twitch, Google, Facebook, Referral, etc.)</p>
                         <Input type='field' name='text' id='charBackground' placeholder='' required />
 
-                    <h4 className="">Name 3 one word characteristics of a good roleplayer.</h4>
+                    <p className="">Name 3 one word characteristics of a good roleplayer.</p>
                         <Input type='field' name='text' id='charBackground' placeholder='' required />
 
-                    <h4 className="">A sheriff, a criminal, and a civilian are all in one area. Please describe a scenario that you think would be unique, and entertaining for all three of these individuals to partake in simultaneously.</h4>
+                    <p className="">A sheriff, a criminal, and a civilian are all in one area. Please describe a scenario that you think would be unique, and entertaining for all three of these individuals to partake in simultaneously.</p>
                         <Input type='field' name='text' id='charBackground' placeholder='' required />
                     
-                    <h4 className="">Do you have past roleplay experience?</h4>
+                    <p className="">Do you have past roleplay experience?</p>
                         <Input type='field' name='text' id='charBackground' placeholder='' required />
 
-                    <h4 className="">What is RDM and can you provide and example.</h4>
+                    <p className="">What is RDM and can you provide and example.</p>
                         <Input type='field' name='text' id='charBackground' placeholder='' required />
                         
-                    <h4 className="">When is acceptable to break character.</h4>
+                    <p className="">When is acceptable to break character.</p>
                         <Input type='field' name='text' id='charBackground' placeholder='' required />
                         
-                    <h4 className="">What is the definition of Metagaming.</h4>
+                    <p className="">What is the definition of Metagaming.</p>
                         <Input type='field' name='text' id='charBackground' placeholder='' required />
                     
-                    <h4 className="">If you could have two super powers and had to use them hand in hand, what woukd they be and why? Also, what would be your kryptonite?</h4>
+                    <p className="">If you could have two super powers and had to use them hand in hand, what woukd they be and why? Also, what would be your kryptonite?</p>
                         <Input type='field' name='text' id='charBackground' placeholder='' required />
                         
                     

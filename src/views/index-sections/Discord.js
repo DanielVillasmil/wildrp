@@ -33,10 +33,10 @@ function Discord() {
                 outline
                 size="lg"
                 target="_blank"
-                style={{color:'#e4b85d', marginTop:'50px', fontSize:'25px'}}
+                style={{color:'#e4b85d', fontSize:'20px', marginTop:'110px', marginBottom:'60px', background:'transparent', height:'60px', justifyContent:'center'}}
               >
                 LAUNCH DISCORD
-                <img className='wheelImg' src={require('assets/img/imgs/wheel.svg')}></img>
+                <img style={{width:'40px', alignItems:'center'}} src={require('assets/img/imgs/wheel.svg')}></img>
               </Button>
               </div>
               <Container className="text-center" >

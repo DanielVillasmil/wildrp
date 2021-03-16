@@ -28,26 +28,14 @@ function Index() {
   });
   return (
     <>
-    {/* <IndexNavbar /> */}
-        
         <IndexHeader />
       <div className="wrapper" >
         <div className="main" >
         <div style={{backgroundImage:`url(${BackgroundImage})`}}>
-          {/* <Images /> */}
-          {/* <BasicElements /> */}
-          {/* <Navbars /> */}
-          {/* <Tabs /> */}
-          {/* <Pagination /> */}
-          {/* <Notifications /> */}
-          {/* <Typography /> */}
+          
           <Introduction />
           <Launcher />
-          {/* <NucleoIcons /> */}
           <Discord />
-          {/* <SignUp /> */}
-          {/* <Examples /> */}
-          {/* <Download /> */}
         </div>
         <DarkFooter />
       </div>

@@ -102,14 +102,6 @@ function IndexHeader() {
                           <Link to='/privacy'>Privacy policy</Link>
                           <Link to='/rules'>Rules</Link>
                             
-                      
-
-
-
-
-
-
-                          
                         </DropdownMenu>
                       </UncontrolledDropdown>
                     </Nav>
