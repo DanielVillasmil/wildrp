@@ -6,15 +6,15 @@ import { Link } from "react-router-dom";
 
 
 // core components
-import IndexNavbar from "components/Navbars/IndexNavbar.js";
 
 import DarkFooter from "components/Footers/DarkFooter.js";
 import BackgroundImage from '../../assets/img/imgs/cover.jpg'
+import IndexHeader from "components/Headers/IndexHeader";
 
 function Donate() {
   return (
     <>
-    <IndexNavbar />
+    <IndexHeader />
     <div className="wrapper">
     <div className="main">
       <div className="section" style={{color:'white', backgroundImage:`url(${BackgroundImage})`}}>
@@ -47,24 +47,24 @@ function Donate() {
               <Table borderless>
                   <tbody>
                     <tr>
-                      <th><Link to='https://py.pl/1F4tPfiddgM' style={{textDecoration:'none', color:'#e4b85d'}}>$5 USD</Link></th>
-                      <th><Link to='https://py.pl/3z5RF' style={{textDecoration:'none', color:'#e4b85d'}}>$30 USD</Link></th>
+                      <th><a href='https://py.pl/1F4tPfiddgM' style={{textDecoration:'none', color:'#e4b85d'}}>$5 USD</a></th>
+                      <th><a href='https://py.pl/3z5RF' style={{textDecoration:'none', color:'#e4b85d'}}>$30 USD</a></th>
                     </tr>
                     <tr>
-                      <th><Link to='https://py.pl/aSFZb' style={{textDecoration:'none', color:'#e4b85d'}}>$10 USD</Link></th>
-                      <th><Link to='https://py.pl/1LTaol' style={{textDecoration:'none', color:'#e4b85d'}}>$40 USD</Link></th>
+                      <th><a href='https://py.pl/aSFZb' style={{textDecoration:'none', color:'#e4b85d'}}>$10 USD</a></th>
+                      <th><a href='https://py.pl/1LTaol' style={{textDecoration:'none', color:'#e4b85d'}}>$40 USD</a></th>
                     </tr>
                     <tr>
-                      <th><Link to='https://py.pl/1ciVfH' style={{textDecoration:'none', color:'#e4b85d'}}>$15 USD</Link></th>
-                      <th><Link to='https://py.pl/qgMTl' style={{textDecoration:'none', color:'#e4b85d'}}>$50 USD</Link></th>
+                      <th><a href='https://py.pl/1ciVfH' style={{textDecoration:'none', color:'#e4b85d'}}>$15 USD</a></th>
+                      <th><a href='https://py.pl/qgMTl' style={{textDecoration:'none', color:'#e4b85d'}}>$50 USD</a></th>
                     </tr>
                     <tr>
-                      <th><Link to='https://py.pl/5ysu9' style={{textDecoration:'none', color:'#e4b85d'}}>$20 USD</Link></th>
-                      <th><Link to='https://py.pl/eehFz'style={{textDecoration:'none', color:'#e4b85d'}} >$75 USD</Link></th>
+                      <th><a href='https://py.pl/5ysu9' style={{textDecoration:'none', color:'#e4b85d'}}>$20 USD</a></th>
+                      <th><a href='https://py.pl/eehFz'style={{textDecoration:'none', color:'#e4b85d'}} >$75 USD</a></th>
                     </tr>
                     <tr>
-                      <th><Link to='https://py.pl/QNNA3zOV4m' style={{textDecoration:'none', color:'#e4b85d'}}>$25 USD</Link></th>
-                      <th><Link to='https://py.pl/fIqHn'style={{textDecoration:'none', color:'#e4b85d'}} >$100 USD</Link></th>
+                      <th><a href='https://py.pl/QNNA3zOV4m' style={{textDecoration:'none', color:'#e4b85d'}}>$25 USD</a></th>
+                      <th><a href='https://py.pl/fIqHn'style={{textDecoration:'none', color:'#e4b85d'}} >$100 USD</a></th>
                     </tr>
                   </tbody>
               </Table>

@@ -6,14 +6,13 @@ import {
   Input,
   Container,
   Col,
-  Label,
-  FormGroup} from "reactstrap";
+  Label} from "reactstrap";
 
 // core components
-import IndexNavbar from "components/Navbars/IndexNavbar.js";
 // import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 import BackgroundImage from '../../assets/img/imgs/cover.jpg'
+import IndexHeader from "components/Headers/IndexHeader";
 
 function Banappeal() {
   React.useEffect(() => {
@@ -29,7 +28,7 @@ function Banappeal() {
 });
   return (
     <>
-      <IndexNavbar />
+      <IndexHeader />
       <div className="wrapper">
         {/* <LandingPageHeader /> */}
         <div className="main">
@@ -91,7 +90,7 @@ function Banappeal() {
                             target="_blank"
                             style={{color:'#e4b85d', fontSize:'20px', marginTop:'110px', marginBottom:'60px', background:'transparent', height:'60px', justifyContent:'center'}}
                           >Submit
-                            <img style={{width:'40px', alignItems:'center'}} src={require('assets/img/imgs/wheel.svg')}></img>
+                            <img style={{width:'40px', alignItems:'center'}} src={require('assets/img/imgs/wheel.svg')} alt='wheel'></img>
                     </Button>
                     
                 

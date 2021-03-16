@@ -2,8 +2,7 @@
 import React from "react";
 
 // reactstrap components
-import { Button,
-  Collapse,
+import { Collapse,
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
@@ -16,6 +15,7 @@ import { Button,
   Container,
   UncontrolledTooltip } from "reactstrap";
   import { Link } from "react-router-dom";
+import Dropdown from "reactstrap/lib/Dropdown";
 // core components
 
 function IndexHeader() {
@@ -55,12 +55,10 @@ function IndexHeader() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
-              href="index.js"
+              href="/index"
               id="navbar-brand"
-              
             >
-            <img  alt="..." src={require("../../assets/img/imgs/logo-white.png")} width='100'></img>
-                    
+            <img  alt="..." src={require("../../assets/img/imgs/logo-white.png")} width='100'></img>  
             </NavbarBrand>
       
           </div>
@@ -74,35 +72,37 @@ function IndexHeader() {
                         
                         <DropdownMenu style={{backgroundColor:'#000000', color:'white', width:'200px', padding:'11px'}}>
                           
-                          <Link to='https://storage.googleapis.com/wildrp-launcher-downloads/WildRPLauncherSetup.exe'
+                          <DropdownItem 
+                            tag='a' 
+                            href='https://storage.googleapis.com/wildrp-launcher-downloads/WildRPLauncherSetup.exe'
                             style={{color:'#e4b85d', textDecoration:'none'}}
-                          >DOWNLOAD LAUNCHER</Link>
+                            >DOWNLOAD LAUNCHER
+                          </DropdownItem>
                             
-                          <h4></h4>
+                          <DropdownItem />
                           
-                          <Link to='/bugs'>Bug report</Link>
-                          <Link to='/report'>Report player</Link>
-                          <Link to='/appeal'>Ban Appeal</Link>
+                          <DropdownItem tag='a' href='/bugs'>bug report</DropdownItem>
+                          <DropdownItem tag='a' href='/report'>Report player</DropdownItem>
+                          <DropdownItem tag='a' href='/appeal'>Ban Appeal</DropdownItem>
                           
-                          <h4></h4>
+                          <DropdownItem />
                           
-                          <Link to='/allowlist'>Allowlist</Link>
-                          <Link to='/staff'>Staff</Link>
-                          <Link to='/developer'>Developer</Link>
-                          <Link to='/law'>Law Enforcement</Link>
+                          <DropdownItem tag='a' href='/allowlist'>Allowlist</DropdownItem>
+                          <DropdownItem tag='a' href='/staff'>Staff</DropdownItem>
+                          <DropdownItem tag='a' href='/developer'>Developer</DropdownItem>
+                          <DropdownItem tag='a' href='/law'>Law Enforcement</DropdownItem>
 
-                          <h4></h4>
+                          <DropdownItem />
 
-                          <Link to='/streamers'>Streamers</Link>
-                          <Link to='/branding'>Branding</Link>
+                          <DropdownItem tag='a' href='/streamers'>Streamers</DropdownItem>
+                          <DropdownItem tag='a' href='/branding'>Branding</DropdownItem>
 
-                          <h4></h4>
-                          <Link to='/typography'>typo</Link>
-
-                          <Link to='/privacy'>Privacy policy</Link>
-                          <Link to='/rules'>Rules</Link>
-                          <Link to='/Donate'>Donate</Link>
-                          <Link to='https://www.merchgardens.com/collections/WildRP'>Merchendise</Link>
+                          <DropdownItem />
+                          
+                          <DropdownItem tag='a' href='/privacy'>Privacy policy</DropdownItem>
+                          <DropdownItem tag='a' href='/rules'>Rules</DropdownItem>
+                          <DropdownItem tag='a' href='/Donate'>Donate</DropdownItem>
+                          <DropdownItem tag='a' href='https://www.merchgardens.com/collections/WildRP'>Merchendise</DropdownItem>
                             
                         </DropdownMenu>
                       </UncontrolledDropdown>
@@ -120,7 +120,7 @@ function IndexHeader() {
                   
                 </NavLink>
                 <UncontrolledTooltip target="#twitter-tooltip">
-                  Like/Subscribe on Youtube
+                  Like & Subscribe on Youtube
                 </UncontrolledTooltip>
               </NavItem>
               <NavItem>

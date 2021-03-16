@@ -8,10 +8,10 @@ import {
 } from "reactstrap";
 
 // core components
-import IndexNavbar from "components/Navbars/IndexNavbar.js";
 // import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 import BackgroundImage from '../../assets/img/imgs/cover.jpg'
+import IndexHeader from "components/Headers/IndexHeader";
 
 function Rules() {
   React.useEffect(() => {
@@ -27,7 +27,7 @@ function Rules() {
   });
   return (
     <>
-      <IndexNavbar />
+      <IndexHeader />
       <div className="wrapper" >
         {/* <LandingPageHeader /> */}
         <div className="main" >
