@@ -102,7 +102,7 @@ function IndexHeader() {
                           <Link to='/privacy'>Privacy policy</Link>
                           <Link to='/rules'>Rules</Link>
                           <Link to='/Donate'>Donate</Link>
-                          <Link to='/Merch'>Merchendise</Link>
+                          <Link to='https://www.merchgardens.com/collections/WildRP'>Merchendise</Link>
                             
                         </DropdownMenu>
                       </UncontrolledDropdown>
