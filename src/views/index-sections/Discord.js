@@ -35,7 +35,7 @@ function Discord() {
                 style={{color:'#e4b85d', marginTop:'50px', fontSize:'25px'}}
               >
                 LAUNCH DISCORD
-                <img src={require('assets/img/imgs/wheel.svg')}></img>
+                <img className='wheelImg' src={require('assets/img/imgs/wheel.svg')}></img>
               </Button>
               </div>
               <Container className="text-center" >
