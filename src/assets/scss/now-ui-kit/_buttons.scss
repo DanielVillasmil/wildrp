@@ -118,7 +118,7 @@
     &[disabled],
     fieldset[disabled] & {
         &,
-        &:hover,
+        // &:hover,
         &:focus,
         &.focus,
         &:active,

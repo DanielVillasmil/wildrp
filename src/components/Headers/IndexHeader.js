@@ -15,6 +15,7 @@ import { Button,
   Nav,
   Container,
   UncontrolledTooltip } from "reactstrap";
+  import { Link } from "react-router-dom";
 // core components
 
 function IndexHeader() {
@@ -80,15 +81,9 @@ function IndexHeader() {
                             
                           <h4></h4>
                           
-                          <li><a href="Bugreport.js"
-                            // onClick={(e) => e.preventDefault()}
-                            style={{textDecoration:'none'}}
-                          >BUG REPORT</a></li>
+                          <Link to='/bugs'>Allowlist</Link>
                           
-                          <li><a href="Reportplayer.js"
-                            // onClick={(e) => e.preventDefault()}
-                            style={{textDecoration:'none'}}
-                          >REPORT PLAYER</a></li>
+                          <Link to='/bugs'>Allowlist</Link>
                           
                           <li><a href="Banappeal.js"
                             // onClick={(e) => e.preventDefault()}
@@ -97,10 +92,7 @@ function IndexHeader() {
                             
                           <h4></h4>
                          
-                          <li><a href="Allowlist.js"
-                            // onClick={(e) => e.preventDefault()}
-                            style={{textDecoration:'none'}}
-                          >ALLOWLIST</a></li>
+                          <Link to='/allowlist'>Allowlist</Link>
                           
                           <li><a href="Staffapp.js"
                             // onClick={(e) => e.preventDefault()}
