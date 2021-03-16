@@ -37,6 +37,11 @@ function Allowlist() {
       document.body.classList.remove("sidebar-collapse");
     };
 });
+function wordCounter(val){
+    
+    console.log(val.split(" ").length)
+}
+
   return (
     <>
       <IndexNavbar />
@@ -112,7 +117,7 @@ function Allowlist() {
                     </div>
                         
                         <Label for='charBackground'>Character Background</Label>
-                        <Input type='field' name='text' id='charBackground' placeholder='' required />
+                        <Input type='field' name='text' id='charBackground' onChange={(e) => wordCounter(e.target.value)} required />
                 
                     <h2 className="" style={{color:'white'}}>OTHER QUESTIONS</h2>
                     <h4 className="">How did you hear about WildRP (Twitter, Twitch, Google, Facebook, Referral, etc.)</h4>
